@@ -1,0 +1,12 @@
+.git
+.github
+.venv
+__pycache__
+*.py[cod]
+.pytest_cache
+node_modules
+task2_inbox_agent/node_modules
+task2_inbox_agent/dist
+.env
+.DS_Store
+Thumbs.db

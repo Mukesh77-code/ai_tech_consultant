@@ -229,3 +229,32 @@ python -m task3_meeting_to_scope.evaluation.run_evaluation
 2. **Untrusted Input Isolation**: Customer emails and meeting transcripts are strictly parsed as data payloads, never executed as instruction directives.
 3. **Graceful Fallbacks**: If external API keys are omitted, the entire system operates seamlessly with its built-in high-fidelity local dense embedding and deterministic reasoning engines.
 4. **Audit Trail**: Every draft, edit diff, and escalation resolution is timestamped and persisted for complete operational accountability.
+
+
+---
+
+## 🚀 Cloud Deployment Guide
+
+The repository includes ready-to-deploy configurations for **Render**, **Railway**, and **Docker**.
+
+### 1. Deploy on Render (Recommended - Free Tier)
+1. Go to [Render Dashboard](https://dashboard.render.com/) and click **New +** -> **Blueprint**.
+2. Connect your GitHub repository: Mukesh77-code/ai_tech_consultant.
+3. Render will automatically detect 
+ender.yaml and provision the containerized web service.
+4. Click **Apply**. Once built, Render provides a public HTTPS URL (e.g., https://ai-tech-consultant.onrender.com).
+
+### 2. Deploy on Railway
+1. Go to [Railway Dashboard](https://railway.app/) and click **New Project** -> **Deploy from GitHub repo**.
+2. Select Mukesh77-code/ai_tech_consultant.
+3. Railway automatically detects 
+ailway.json and Dockerfile, builds the image, and deploys.
+4. Under **Settings > Networking**, click **Generate Domain** to get your public URL.
+
+### 3. Local Docker Compose
+To build and run the multi-service container locally:
+`ash
+docker-compose up --build
+`
+- Inbox Agent Web UI: http://localhost:3000
+- Knowledge Brain API Docs: http://localhost:8000/docs

@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  ai-tech-consultant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai_tech_consultant
+    ports:
+      - "3000:3000"
+      - "8000:8000"
+    environment:
+      - PORT=3000
+      - KNOWLEDGE_BRAIN_PORT=8000
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    restart: unless-stopped

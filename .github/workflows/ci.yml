@@ -1,0 +1,60 @@
+name: CI & Deployment Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Set up Node.js 20
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r task1_knowledge_brain/requirements.txt -r task3_meeting_to_scope/requirements.txt
+        pip install httpx
+
+    - name: Install Node.js dependencies & Build Task 2
+      run: |
+        cd task2_inbox_agent
+        npm ci
+        npm run build
+
+    - name: Run Task 1 Unit & RAG Tests
+      env:
+        PYTHONPATH: ${{ github.workspace }}
+      run: |
+        pytest task1_knowledge_brain/tests
+
+    - name: Run Task 2 Evaluation Suite
+      run: |
+        cd task2_inbox_agent
+        npm test
+
+    - name: Run Task 3 Meeting to Scope Tests
+      env:
+        PYTHONPATH: ${{ github.workspace }}
+      run: |
+        pytest task3_meeting_to_scope/tests
+
+    - name: Run Task 3 Evaluation Suite
+      env:
+        PYTHONPATH: ${{ github.workspace }}
+      run: |
+        python task3_meeting_to_scope/evaluation/run_evaluation.py

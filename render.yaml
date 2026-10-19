@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: ai-tech-consultant
+    runtime: docker
+    plan: free
+    region: oregon
+    branch: main
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: KNOWLEDGE_BRAIN_PORT
+        value: 8000
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
