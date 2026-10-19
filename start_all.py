@@ -20,7 +20,9 @@ def main():
     print("=" * 80)
 
     # 1. Start Task 1 Knowledge Brain (FastAPI / Uvicorn)
-    t1_cmd = [sys.executable, "-m", "uvicorn", "task1_knowledge_brain.api.app:app", "--host", "127.0.0.1", "--port", "8000"]
+    venv_py = os.path.join(root_dir, ".venv", "Scripts", "python.exe")
+    py_exec = venv_py if os.path.exists(venv_py) else sys.executable
+    t1_cmd = [py_exec, "-m", "uvicorn", "task1_knowledge_brain.api.app:app", "--host", "127.0.0.1", "--port", "8000"]
     print("\n[Launcher] Booting Task 1 Knowledge Brain API...")
     p1 = subprocess.Popen(t1_cmd, cwd=root_dir)
 
