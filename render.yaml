@@ -12,6 +12,6 @@ services:
       - key: KNOWLEDGE_BRAIN_PORT
         value: 8000
       - key: ANTHROPIC_API_KEY
-        sync: false
+        value: ""
       - key: OPENAI_API_KEY
-        sync: false
+        value: ""

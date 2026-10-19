@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-19 04:32:33Z",
+  "timestamp": "2026-10-19 05:39:36Z",
   "total_cases": 22,
   "passed_cases": 22,
   "pass_rate_percent": 100.0,
-  "avg_latency_ms": 1.6,
+  "avg_latency_ms": 1.28,
   "test_results": [
     {
       "id": "TC-01",
@@ -20,7 +20,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000023456-how-to-setup-stripe-payment-gateway"
         }
       ],
-      "latency_ms": 5.18,
+      "latency_ms": 0.91,
       "passed": true,
       "terms_matched": [
         "stripe",
@@ -42,7 +42,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034567-general-settings-logo-and-contact-details"
         }
       ],
-      "latency_ms": 0.63,
+      "latency_ms": 0.37,
       "passed": true,
       "terms_matched": [
         "settings",
@@ -66,7 +66,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045678-google-maps-api-setup-and-search-radius"
         }
       ],
-      "latency_ms": 0.42,
+      "latency_ms": 0.24,
       "passed": true,
       "terms_matched": [
         "google maps",
@@ -93,7 +93,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090123-member-privacy-and-phone-number-visibility"
         }
       ],
-      "latency_ms": 0.51,
+      "latency_ms": 0.28,
       "passed": true,
       "terms_matched": [
         "radius",
@@ -117,7 +117,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056789-how-to-process-refunds-and-member-cancellations"
         }
       ],
-      "latency_ms": 0.47,
+      "latency_ms": 0.24,
       "passed": true,
       "terms_matched": [
         "refund",
@@ -140,7 +140,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067890-connecting-custom-domain-name-and-ssl"
         }
       ],
-      "latency_ms": 0.45,
+      "latency_ms": 0.28,
       "passed": true,
       "terms_matched": [
         "domain",
@@ -170,7 +170,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000134567-form-manager-customize-signup-fields"
         }
       ],
-      "latency_ms": 0.4,
+      "latency_ms": 0.26,
       "passed": true,
       "terms_matched": [
         "emails",
@@ -198,7 +198,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034567-general-settings-logo-and-contact-details"
         }
       ],
-      "latency_ms": 0.46,
+      "latency_ms": 0.3,
       "passed": true,
       "terms_matched": [
         "reviews",
@@ -227,7 +227,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090123-member-privacy-and-phone-number-visibility"
         }
       ],
-      "latency_ms": 0.38,
+      "latency_ms": 0.23,
       "passed": true,
       "terms_matched": [
         "membership plan",
@@ -254,7 +254,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558373-email-forwarders"
         }
       ],
-      "latency_ms": 0.39,
+      "latency_ms": 0.26,
       "passed": true,
       "terms_matched": [
         "privacy",
@@ -282,7 +282,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558357-can-i-send-a-mass-email-campaign-using-brilliant-directories-"
         }
       ],
-      "latency_ms": 0.39,
+      "latency_ms": 0.24,
       "passed": true,
       "terms_matched": [
         "webhook",
@@ -307,7 +307,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067890-connecting-custom-domain-name-and-ssl"
         }
       ],
-      "latency_ms": 0.42,
+      "latency_ms": 0.23,
       "passed": true,
       "terms_matched": [
         "ssl",
@@ -336,7 +336,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558401-how-to-import-categories-via-csv-file"
         }
       ],
-      "latency_ms": 0.32,
+      "latency_ms": 0.2,
       "passed": true,
       "terms_matched": [
         "import",
@@ -365,7 +365,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558401-how-to-import-categories-via-csv-file"
         }
       ],
-      "latency_ms": 0.45,
+      "latency_ms": 0.29,
       "passed": true,
       "terms_matched": [
         "credentials",
@@ -393,7 +393,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078901-customizing-email-templates-and-notifications"
         }
       ],
-      "latency_ms": 0.35,
+      "latency_ms": 0.32,
       "passed": true,
       "terms_matched": [
         "form manager",
@@ -421,7 +421,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056789-how-to-process-refunds-and-member-cancellations"
         }
       ],
-      "latency_ms": 0.41,
+      "latency_ms": 0.35,
       "passed": true,
       "terms_matched": [
         "blog",
@@ -450,7 +450,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056789-how-to-process-refunds-and-member-cancellations"
         }
       ],
-      "latency_ms": 0.35,
+      "latency_ms": 0.24,
       "passed": true,
       "terms_matched": [
         "paypal",
@@ -478,7 +478,7 @@
           "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558389-settings-general-settings-social-media-tab"
         }
       ],
-      "latency_ms": 0.36,
+      "latency_ms": 0.28,
       "passed": true,
       "terms_matched": [
         "image",
@@ -514,7 +514,7 @@
       "requires_human": true,
       "citations_count": 0,
       "sources": [],
-      "latency_ms": 7.77,
+      "latency_ms": 11.73,
       "passed": true,
       "terms_matched": [
         "insufficient",
@@ -531,7 +531,7 @@
       "requires_human": true,
       "citations_count": 0,
       "sources": [],
-      "latency_ms": 6.9,
+      "latency_ms": 5.16,
       "passed": true,
       "terms_matched": [
         "insufficient",
@@ -548,7 +548,7 @@
       "requires_human": true,
       "citations_count": 0,
       "sources": [],
-      "latency_ms": 8.27,
+      "latency_ms": 5.79,
       "passed": true,
       "terms_matched": [
         "insufficient",
