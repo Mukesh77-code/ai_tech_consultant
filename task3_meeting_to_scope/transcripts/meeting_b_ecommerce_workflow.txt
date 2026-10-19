@@ -1,0 +1,28 @@
+[Meeting Date: October 15, 2026]
+[Attendees: Elena Rostova (Client, Head of Operations at Sensepass Retail), Marcus Bennett (Lead Consultant, AI Tech Consulting), Maya Lin (Senior Solutions Architect)]
+
+Elena Rostova [00:00]: Hi Marcus, Maya. Thank you for making time today. We operate an online marketplace of boutique beauty equipment suppliers. Our challenge is that our existing payment checkout is clunky and causing high cart abandonment. We need a modern e-commerce checkout and automated fulfillment workflow.
+
+Marcus Bennett [00:26]: Welcome Elena. Could you walk us through the payment gateways you need supported and how subscriptions or one-time transactions should behave?
+
+Elena Rostova [00:40]: We want Stripe as our primary payment gateway, accepting credit cards, Apple Pay, and Google Pay with on-site embedded checkout—no redirects to third-party pages. We also need PayPal supported as a secondary option for international customers who prefer paying via their PayPal balance.
+
+Maya Lin [01:05]: That aligns well with modern standards. For PayPal, are you looking for PayPal Commerce Platform so it remains embedded on-site, or standard redirect?
+
+Elena Rostova [01:17]: Embedded on-site through PayPal Commerce Platform, definitely. We do not want customers redirected away from our domain.
+
+Marcus Bennett [01:28]: Understood. What membership or product billing models do you offer?
+
+Elena Rostova [01:34]: We offer two tiers: a Basic Vendor plan that has a 14-day free trial requiring a credit card upfront that automatically rolls over into a $49/month recurring charge; and a Premium Supplier plan billed at $490/year. When subscriptions renew or fail, we need automated receipt and failed-payment dunning notification emails.
+
+Maya Lin [02:04]: What about refunds and cancellations? How should disputes or refund requests be handled by your support staff?
+
+Elena Rostova [02:14]: In the admin panel, our staff need the ability to issue full or partial refunds directly without having to log into Stripe or PayPal merchant portals. If a vendor cancels their subscription, their catalog should remain visible until the paid billing cycle concludes.
+
+Marcus Bennett [02:37]: And for order notifications and backend fulfillment?
+
+Elena Rostova [02:44]: Whenever a successful payment occurs, we need real-time webhooks fired to our ERP database and an automated notification sent via email to the vendor. However, we do not need custom inventory warehouse barcode scanning in this phase—that is strictly out of scope.
+
+Maya Lin [03:09]: Perfect. Target deadline?
+
+Elena Rostova [03:15]: We are aiming to be fully live in 5 weeks before our holiday supplier convention.

@@ -1,0 +1,25 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089012-lead-webhooks-and-zapier-integration",
+  "title": "Setting Up Webhooks and Zapier for Lead Export",
+  "category": "Integrations > Webhooks",
+  "sections": [
+    {
+      "heading": "Lead Webhook Export",
+      "content": "You can export customer inquiries, member signups, and reviews in real-time to CRMs (HubSpot, Salesforce, Zoho) via Webhooks and Zapier.\n1. Navigate to Settings > Webhooks.\n2. Click 'Add New Webhook'.\n3. Select Trigger Event: 'New Member Signup', 'Lead Generated', or 'Payment Completed'.\n4. Enter the destination Target Webhook URL (e.g. Zapier webhook endpoint).\n5. Click 'Activate Webhook'."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Navigate to Settings > Webhooks",
+      "Click Add New Webhook",
+      "Select trigger event (New Member, Lead Generated)",
+      "Paste destination endpoint URL",
+      "Click Activate Webhook"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "Lead Webhook Export\nYou can export customer inquiries, member signups, and reviews in real-time to CRMs (HubSpot, Salesforce, Zoho) via Webhooks and Zapier.\n1. Navigate to Settings > Webhooks.\n2. Click 'Add New Webhook'.\n3. Select Trigger Event: 'New Member Signup', 'Lead Generated', or 'Payment Completed'.\n4. Enter the destination Target Webhook URL (e.g. Zapier webhook endpoint).\n5. Click 'Activate Webhook'.",
+  "content_hash": "b547fd1c4a5ccb12419065021e8ea0675cf3b7474e0e3c075866ead722707854"
+}

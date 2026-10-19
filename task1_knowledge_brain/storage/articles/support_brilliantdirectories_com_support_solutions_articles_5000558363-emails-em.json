@@ -1,0 +1,74 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts",
+  "title": "Emails » Email Accounts",
+  "category": "Solution home > Section: Emails > Email Accounts > Emails » Email Accounts",
+  "sections": [
+    {
+      "heading": "Emails » Email Accounts",
+      "content": "Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558363\nEmail accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly."
+    },
+    {
+      "heading": "Before starting",
+      "content": "Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own. Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them."
+    },
+    {
+      "heading": "Open the email accounts",
+      "content": "In the admin, open Emails . Click Email Accounts . Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered.\nEmail Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2)."
+    },
+    {
+      "heading": "Create and manage mailboxes",
+      "content": "On the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings » Domain Manager » Mailboxes and Email Routing .\nGeneric addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice."
+    },
+    {
+      "heading": "When the previous Email Accounts page appears",
+      "content": "The previous Manage Email Accounts page still opens in two cases:\nThe website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website . The administrator's role does not include access to the Domain Manager's Mailboxes tab.\nOn a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1)."
+    },
+    {
+      "heading": "Additional notes",
+      "content": "Email replies do not have a separate reply-to address. Responses go to the address that sent the original message. To read a mailbox in the browser, see How To Access Webmail Through the Admin Area ."
+    }
+  ],
+  "full_text": "Emails » Email Accounts\nLink:\nhttps://support.brilliantdirectories.com/support/solutions/articles/5000558363\nEmail accounts (mailboxes) at the website's own domain, such as\nsupport@example.com\n, are created and managed in\nSettings > Domain Manager > Mailboxes\n. The\nEmails > Email Accounts\nmenu item opens that tab directly.\nBefore starting\nConnect a custom domain to the website. A free\ndirectoryup.com\naddress has no mailboxes of its own.\nConfirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them.\nOpen the email accounts\nIn the admin, open\nEmails\n.\nClick\nEmail Accounts\n.\nDomain Manager opens on the\nMailboxes\ntab, which lists the mailboxes, their storage use, and where the domain's email is delivered.\nEmail Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2).\nCreate and manage mailboxes\nOn the\nMailboxes\ntab,\nAdd a mailbox\ncreates a new mailbox with its password and storage limit. Each mailbox in the list offers\nOpen webmail\n,\nSet up\nfor the settings to enter in Outlook, Apple Mail, or a phone, and\nMore\nfor changing the password or storage limit or deleting the mailbox. The full steps are in\nSettings » Domain Manager » Mailboxes and Email Routing\n.\nGeneric addresses such as\ninfo@\nare more often treated as spam by receiving mail systems. Addresses such as\nsupport@\n,\nadmin@\n, or\ncontact@\nare usually a better choice.\nWhen the previous Email Accounts page appears\nThe previous\nManage Email Accounts\npage still opens in two cases:\nThe website uses a free\ndirectoryup.com\naddress. The page explains that a live domain name must be connected before email accounts can be set up, and offers\nConnect Live Domain\n. See\nHow to Connect a Domain to a Brilliant Directories Website\n.\nThe administrator's role does not include access to the Domain Manager's\nMailboxes\ntab.\nOn a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1).\nAdditional notes\nEmail replies do not have a separate reply-to address. Responses go to the address that sent the original message.\nTo read a mailbox in the browser, see\nHow To Access Webmail Through the Admin Area\n.",
+  "procedural_steps": [
+    [
+      "In the admin, openEmails.",
+      "ClickEmail Accounts.",
+      "Domain Manager opens on theMailboxestab, which lists the mailboxes, their storage use, and where the domain's email is delivered."
+    ]
+  ],
+  "tables": [],
+  "images": [
+    {
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588",
+      "alt_text": "Admin Emails menu with Email Accounts highlighted (1) and Domain Manager opening on its Mailboxes tab (2).",
+      "surrounding_context": "Open the email accounts Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2)."
+    },
+    {
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600",
+      "alt_text": "Manage Email Accounts message saying a live domain must be connected first, with the Connect Live Domain button highlighted.",
+      "surrounding_context": "The previousManage Email Accountspage still opens in two cases: On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1)."
+    }
+  ],
+  "content_hash": "30d6002bd45442029a2ea402e30e2980aaeb0ac3b4c7eaaac826c95bd49265aa",
+  "enriched_images": [
+    {
+      "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588",
+      "visual_description": "Screenshot illustrating 'Emails » Email Accounts'. Context: Open the email accounts Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2).. Visible UI controls and buttons: The Email Accounts Email Accou, Admin Emails menu with Email Accounts highlighted (1) and Domain Manager opening on its Mailboxes tab (2).. ",
+      "interface_labels": [
+        "The Email Accounts Email Accou",
+        "Admin Emails menu with Email Accounts highlighted (1) and Domain Manager opening on its Mailboxes tab (2)."
+      ],
+      "settings_path": "Dashboard",
+      "source": "contextual_multimodal_analyzer"
+    },
+    {
+      "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600",
+      "visual_description": "Screenshot illustrating 'Emails » Email Accounts'. Context: The previousManage Email Accountspage still opens in two cases: On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1).. Visible UI controls and buttons: Manage Email Accounts message saying a live domain must be connected first, with the Connect Live Domain button highlighted.. ",
+      "interface_labels": [
+        "Manage Email Accounts message saying a live domain must be connected first, with the Connect Live Domain button highlighted."
+      ],
+      "settings_path": "Dashboard",
+      "source": "contextual_multimodal_analyzer"
+    }
+  ]
+}

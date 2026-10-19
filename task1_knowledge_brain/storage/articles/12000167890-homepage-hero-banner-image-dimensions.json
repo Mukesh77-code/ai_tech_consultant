@@ -1,0 +1,25 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000167890-homepage-hero-banner-image-dimensions",
+  "title": "Homepage Hero Banner Image Dimensions and Design Guidelines",
+  "category": "Settings > Design Settings",
+  "sections": [
+    {
+      "heading": "Hero Banner Dimensions",
+      "content": "The recommended image dimensions for the homepage hero background banner are 1920 pixels wide by 600 pixels high (1920x600 px). Use optimized JPEG or WebP images under 300KB to ensure fast page load speeds on mobile and desktop.\nTo update:\n1. Navigate to Settings > Design Settings.\n2. Click the 'Homepage' tab.\n3. Under Hero Background Image, click 'Choose File' or upload from Media Manager.\n4. Adjust the background overlay color opacity if needed.\n5. Click 'Save Changes'."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Go to Settings > Design Settings",
+      "Select Homepage tab",
+      "Locate Hero Background Image",
+      "Upload 1920x600 px banner image",
+      "Click Save Changes"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "Hero Banner Dimensions\nThe recommended image dimensions for the homepage hero background banner are 1920 pixels wide by 600 pixels high (1920x600 px). Use optimized JPEG or WebP images under 300KB to ensure fast page load speeds on mobile and desktop.\nTo update:\n1. Navigate to Settings > Design Settings.\n2. Click the 'Homepage' tab.\n3. Under Hero Background Image, click 'Choose File' or upload from Media Manager.\n4. Adjust the background overlay color opacity if needed.\n5. Click 'Save Changes'.",
+  "content_hash": "998d91a778737f8cc8d3e734142dcb3b119cda12a68154d3847191041dd5ed47"
+}

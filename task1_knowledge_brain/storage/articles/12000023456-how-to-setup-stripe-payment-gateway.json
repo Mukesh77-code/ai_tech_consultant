@@ -1,0 +1,57 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000023456-how-to-setup-stripe-payment-gateway",
+  "title": "How to Setup Stripe Payment Gateway",
+  "category": "Finance > Payment Gateways",
+  "sections": [
+    {
+      "heading": "Overview of Stripe Integration",
+      "content": "Brilliant Directories includes direct API integration with Stripe for processing recurring membership subscriptions, one-time payments, and digital product sales. Stripe supports credit cards, Apple Pay, Google Pay, and SEPA direct debit."
+    },
+    {
+      "heading": "Step-by-Step Stripe Configuration",
+      "content": "To connect your Stripe account:\n1. Navigate to Finance > Payment Gateways in your admin dashboard.\n2. In the 'Active Payment Gateway' dropdown, select 'Stripe'.\n3. Click on the 'Credentials' tab.\n4. Paste your Stripe Publishable Key (pk_live_...) and Stripe Secret Key (sk_live_...).\n5. Configure the Webhook Endpoint URL in your Stripe Dashboard to point to your website webhook URL.\n6. Click the blue 'Save Changes' button in the upper right."
+    },
+    {
+      "heading": "Testing and Live Mode",
+      "content": "You can test transactions before going live by checking the 'Enable Test Mode' checkbox and providing your Stripe test API keys (pk_test_... and sk_test_...). Once verified, switch to Live Mode."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Navigate to Finance > Payment Gateways in your admin dashboard",
+      "Select 'Stripe' in Active Payment Gateway dropdown",
+      "Click on Credentials tab",
+      "Enter Stripe Publishable Key and Secret Key",
+      "Configure Webhook Endpoint URL in Stripe dashboard",
+      "Click 'Save Changes'"
+    ]
+  ],
+  "tables": [
+    "Credential Field | Required Format | Description\nPublishable Key | pk_live_xxx | Client-side tokenization key\nSecret Key | sk_live_xxx | Server-side secure transaction processing key\nWebhook Signing Secret | whsec_xxx | Verifies incoming payment confirmation events"
+  ],
+  "images": [
+    {
+      "url": "https://support.brilliantdirectories.com/images/stripe-gateway-credentials-setup.png",
+      "alt_text": "Stripe Gateway Credentials Form Screenshot",
+      "surrounding_context": "Navigate to Finance > Payment Gateways. Enter your Stripe Publishable Key and Secret Key, then click Save Changes."
+    }
+  ],
+  "enriched_images": [
+    {
+      "image_url": "https://support.brilliantdirectories.com/images/stripe-gateway-credentials-setup.png",
+      "visual_description": "Screenshot of Finance > Payment Gateways admin screen showing Stripe settings tabs: Credentials, Webhook, Currency. Input fields for Publishable Key, Secret Key, and blue Save Changes button.",
+      "interface_labels": [
+        "Finance",
+        "Payment Gateways",
+        "Publishable Key",
+        "Secret Key",
+        "Save Changes",
+        "Enable Test Mode"
+      ],
+      "settings_path": "Finance > Payment Gateways",
+      "source": "seed_multimodal"
+    }
+  ],
+  "full_text": "Overview of Stripe Integration\nBrilliant Directories includes direct API integration with Stripe for processing recurring membership subscriptions, one-time payments, and digital product sales. Stripe supports credit cards, Apple Pay, Google Pay, and SEPA direct debit.\n\nStep-by-Step Stripe Configuration\nTo connect your Stripe account:\n1. Navigate to Finance > Payment Gateways in your admin dashboard.\n2. In the 'Active Payment Gateway' dropdown, select 'Stripe'.\n3. Click on the 'Credentials' tab.\n4. Paste your Stripe Publishable Key (pk_live_...) and Stripe Secret Key (sk_live_...).\n5. Configure the Webhook Endpoint URL in your Stripe Dashboard to point to your website webhook URL.\n6. Click the blue 'Save Changes' button in the upper right.\n\nTesting and Live Mode\nYou can test transactions before going live by checking the 'Enable Test Mode' checkbox and providing your Stripe test API keys (pk_test_... and sk_test_...). Once verified, switch to Live Mode.",
+  "content_hash": "8664a50d0621a001f49c1cb2a80e3fffb73f87386b4a1397e6183f44d3fa3169"
+}

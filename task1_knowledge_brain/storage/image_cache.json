@@ -1,0 +1,63 @@
+{
+  "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588": {
+    "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588",
+    "visual_description": "Screenshot illustrating 'Emails » Email Accounts'. Context: Open the email accounts Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2).. Visible UI controls and buttons: The Email Accounts Email Accou, Admin Emails menu with Email Accounts highlighted (1) and Domain Manager opening on its Mailboxes tab (2).. ",
+    "interface_labels": [
+      "The Email Accounts Email Accou",
+      "Admin Emails menu with Email Accounts highlighted (1) and Domain Manager opening on its Mailboxes tab (2)."
+    ],
+    "settings_path": "Dashboard",
+    "source": "contextual_multimodal_analyzer"
+  },
+  "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600": {
+    "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600",
+    "visual_description": "Screenshot illustrating 'Emails » Email Accounts'. Context: The previousManage Email Accountspage still opens in two cases: On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1).. Visible UI controls and buttons: Manage Email Accounts message saying a live domain must be connected first, with the Connect Live Domain button highlighted.. ",
+    "interface_labels": [
+      "Manage Email Accounts message saying a live domain must be connected first, with the Connect Live Domain button highlighted."
+    ],
+    "settings_path": "Dashboard",
+    "source": "contextual_multimodal_analyzer"
+  },
+  "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132171349/original/ScGFFTLRwpppX7RsyMTIz3RaD35rEBxnOA.png?1696295524": {
+    "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132171349/original/ScGFFTLRwpppX7RsyMTIz3RaD35rEBxnOA.png?1696295524",
+    "visual_description": "Screenshot illustrating 'Settings » General Settings » Social Media Tab'. Context: Visual Guide of the Social Media Links tab. ",
+    "interface_labels": [],
+    "settings_path": "Dashboard",
+    "source": "contextual_multimodal_analyzer"
+  },
+  "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132162075/original/1UNijwTWHMGd6c0gwTZBva0OSvnTeXXyEA.png?1696281494": {
+    "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132162075/original/1UNijwTWHMGd6c0gwTZBva0OSvnTeXXyEA.png?1696281494",
+    "visual_description": "Screenshot illustrating 'Settings » General Settings » Social Media Tab'. Context: . ",
+    "interface_labels": [],
+    "settings_path": "Dashboard",
+    "source": "contextual_multimodal_analyzer"
+  },
+  "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074693982/original/QORGDzC_aYpnRbZBCdD-Mnr1BdDKdexnWA.png?1583248842": {
+    "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074693982/original/QORGDzC_aYpnRbZBCdD-Mnr1BdDKdexnWA.png?1583248842",
+    "visual_description": "Screenshot illustrating 'How To Import Categories Via CSV File'. Context: 4. Fill out the spreadsheet with the categories by replacing the placeholders in the template.. ",
+    "interface_labels": [],
+    "settings_path": "Dashboard",
+    "source": "contextual_multimodal_analyzer"
+  },
+  "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074694409/original/_CpKps0VX60nBTIrY3r1GfXBvyjYylQJXg.png?1583249244": {
+    "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074694409/original/_CpKps0VX60nBTIrY3r1GfXBvyjYylQJXg.png?1583249244",
+    "visual_description": "Screenshot illustrating 'How To Import Categories Via CSV File'. Context: . ",
+    "interface_labels": [],
+    "settings_path": "Dashboard",
+    "source": "contextual_multimodal_analyzer"
+  },
+  "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171252789/original/c_8Lg6thRZqJ4vbTF83U2iteIZAplJLMxg.png?1764552502": {
+    "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171252789/original/c_8Lg6thRZqJ4vbTF83U2iteIZAplJLMxg.png?1764552502",
+    "visual_description": "Screenshot illustrating 'How To Import Categories Via CSV File'. Context: . ",
+    "interface_labels": [],
+    "settings_path": "Dashboard",
+    "source": "contextual_multimodal_analyzer"
+  },
+  "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097399352/original/tIBlFCLyIiZTlHaEeqcG_95NyCvySXaDZg.png?1630013869": {
+    "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097399352/original/tIBlFCLyIiZTlHaEeqcG_95NyCvySXaDZg.png?1630013869",
+    "visual_description": "Screenshot illustrating 'How To Import Categories Via CSV File'. Context: . ",
+    "interface_labels": [],
+    "settings_path": "Dashboard",
+    "source": "contextual_multimodal_analyzer"
+  }
+}

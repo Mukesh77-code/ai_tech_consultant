@@ -1,0 +1,41 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558373-email-forwarders",
+  "title": "Email Forwarders",
+  "category": "Solution home > Section: Emails > Email Accounts > Email Forwarders",
+  "sections": [
+    {
+      "heading": "Email Forwarders",
+      "content": "Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558373"
+    },
+    {
+      "heading": "Email Forwarders Not Supported",
+      "content": "IMPORTANT: The Email Forwarders functionality has been removed from our implementation of cPanel as of June, 2024.\nDue to the way this functionality works in cPanel, it caused several issues for users. Some of these issue included:\nNot all emails being forwarded properly based on the domain settings of the email sender and the receiver of the forwarded email Sendgrid blocking emails from being sent to accounts hosted in cPanel, preventing the Admins of sites from getting notification emails The domain reputation and reputation of the server being harmed when SPAM emails are forwarded through this system\nWhile email forwarders can no longer be added or modified, any existing email forwarders will remain in place.  If an email forwarder needs to be removed from a site, please submit a ticket to our Support Team for assistance."
+    },
+    {
+      "heading": "Recommendations to Replace Email Forwarders",
+      "content": "The recommended alternative for using email forwarders is to use an email app that can send and receive emails from multiple email accounts in one place:"
+    },
+    {
+      "heading": "Gmail",
+      "content": "Paid Google Workspace email accounts can connect to 3rd party email accounts to send and receive emails.  For this, the MX record would need to be pointed to Google workspace, for more information: How To Change Email MX Records"
+    },
+    {
+      "heading": "Thunderbird",
+      "content": "This is a free desktop email application from Mozilla, the makers of the FireFox browser. Thunderbird offers an app for Windows, MacOS, and Linux operating systems."
+    },
+    {
+      "heading": "Apple Mail",
+      "content": "Apple includes a free email client that can connect to 3rd party email accounts for all of their devices and operating systems."
+    },
+    {
+      "heading": "Microsoft",
+      "content": "Windows Mail and Microsoft Outlook - Microsoft includes the Windows Mail and Outlook for Windows applications for free on devices using Windows 10 or newer. Both of these applications can connect to 3rd party email accounts."
+    }
+  ],
+  "full_text": "Email Forwarders\nLink:\nhttps://support.brilliantdirectories.com/support/solutions/articles/5000558373\nEmail Forwarders Not Supported\nIMPORTANT:\nThe Email Forwarders functionality has been removed from our implementation of cPanel as of June, 2024.\nDue to the way this functionality works in cPanel, it caused several issues for users. Some of these issue included:\nNot all emails being forwarded properly based on the domain settings of the email sender and the receiver of the forwarded email\nSendgrid blocking emails from being sent to accounts hosted in cPanel, preventing the Admins of sites from getting notification emails\nThe domain reputation and reputation of the server being harmed when SPAM emails are forwarded through this system\nWhile email forwarders can no longer be added or modified, any existing email forwarders will remain in place.  If an email forwarder needs to be removed from a site, please submit a ticket to our Support Team for assistance.\nRecommendations to Replace Email Forwarders\nThe recommended alternative for using email forwarders is to use an email app that can send and receive emails from multiple email accounts in one place:\nGmail\nPaid\nGoogle Workspace\nemail accounts can connect to 3rd party email accounts to send and receive emails.  For this, the MX record would need to be pointed to Google workspace, for more information:\nHow To Change Email MX Records\nThunderbird\nThis is a free desktop email application from Mozilla, the makers of the FireFox browser. Thunderbird offers an app for Windows, MacOS, and Linux operating systems.\nApple Mail\nApple includes a free email client that can connect to 3rd party email accounts for all of their devices and operating systems.\nMicrosoft\nWindows Mail\nand\nMicrosoft Outlook\n- Microsoft includes the Windows Mail and Outlook for Windows applications for free on devices using Windows 10 or newer. Both of these applications can connect to 3rd party email accounts.",
+  "procedural_steps": [],
+  "tables": [],
+  "images": [],
+  "content_hash": "fac777f31e4752f808d8144ccdbbaa1fc60db696308e43a30b4b635a5dba1bb3",
+  "enriched_images": []
+}

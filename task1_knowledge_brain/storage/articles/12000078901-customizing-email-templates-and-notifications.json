@@ -1,0 +1,29 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078901-customizing-email-templates-and-notifications",
+  "title": "Customizing Automated Email Templates and Member Notifications",
+  "category": "Emails > Email Templates",
+  "sections": [
+    {
+      "heading": "Email Templates Overview",
+      "content": "Brilliant Directories sends automated transactional emails for member registration, welcome messages, payment receipts, password resets, and lead inquiries. All emails are customizable under Emails > Email Templates."
+    },
+    {
+      "heading": "Editing Welcome Email",
+      "content": "To edit the welcome email:\n1. Go to Emails > Email Templates.\n2. Search for 'welcome-member' in the template search bar.\n3. Click 'Customize'.\n4. Use the rich text WYSIWYG editor to adjust text, logo, and layout.\n5. Use shortcodes such as %user_name%, %website_name%, and %login_url%.\n6. Click 'Save Changes'."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Navigate to Emails > Email Templates",
+      "Locate template like 'welcome-member'",
+      "Click Customize",
+      "Edit copy and insert shortcodes like %user_name%",
+      "Click Save Changes"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "Email Templates Overview\nBrilliant Directories sends automated transactional emails for member registration, welcome messages, payment receipts, password resets, and lead inquiries. All emails are customizable under Emails > Email Templates.\n\nEditing Welcome Email\nTo edit the welcome email:\n1. Go to Emails > Email Templates.\n2. Search for 'welcome-member' in the template search bar.\n3. Click 'Customize'.\n4. Use the rich text WYSIWYG editor to adjust text, logo, and layout.\n5. Use shortcodes such as %user_name%, %website_name%, and %login_url%.\n6. Click 'Save Changes'.",
+  "content_hash": "4f14194eb931f4f6d487aab7a48f9f1299046f2fd81667f8dd95e6cf76ec1e66"
+}

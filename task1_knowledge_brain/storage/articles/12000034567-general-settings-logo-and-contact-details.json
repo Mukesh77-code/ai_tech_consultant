@@ -1,0 +1,49 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034567-general-settings-logo-and-contact-details",
+  "title": "General Settings: Website Logo, Contact Info and Brand Colors",
+  "category": "Settings > General Settings",
+  "sections": [
+    {
+      "heading": "General Settings Navigation",
+      "content": "All core branding settings are located under Settings > General Settings. Here you can upload your high-resolution website logo, enter primary contact phone numbers, define the default currency, and set your company physical address."
+    },
+    {
+      "heading": "Logo Dimensions and Requirements",
+      "content": "For optimal display across desktop and mobile browsers, upload a transparent PNG logo. Recommended logo dimensions are 400px wide by 100px high. Click 'Upload Logo' under the Brand Identity tab, then click 'Save Changes'."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Go to Settings > General Settings",
+      "Select the Brand Identity tab",
+      "Click Upload Logo and select your transparent PNG file",
+      "Enter company phone number, email, and address",
+      "Click Save Changes"
+    ]
+  ],
+  "tables": [],
+  "images": [
+    {
+      "url": "https://support.brilliantdirectories.com/images/general-settings-brand-identity.png",
+      "alt_text": "General Settings Brand Identity Tab",
+      "surrounding_context": "Navigate to Settings > General Settings. Click Brand Identity tab to upload website logo."
+    }
+  ],
+  "enriched_images": [
+    {
+      "image_url": "https://support.brilliantdirectories.com/images/general-settings-brand-identity.png",
+      "visual_description": "Admin panel displaying Settings > General Settings with tabs: General, Brand Identity, Localization, Contact Info. Shows file uploader button 'Upload Logo' and 'Save Changes'.",
+      "interface_labels": [
+        "Settings",
+        "General Settings",
+        "Brand Identity",
+        "Upload Logo",
+        "Save Changes"
+      ],
+      "settings_path": "Settings > General Settings",
+      "source": "seed_multimodal"
+    }
+  ],
+  "full_text": "General Settings Navigation\nAll core branding settings are located under Settings > General Settings. Here you can upload your high-resolution website logo, enter primary contact phone numbers, define the default currency, and set your company physical address.\n\nLogo Dimensions and Requirements\nFor optimal display across desktop and mobile browsers, upload a transparent PNG logo. Recommended logo dimensions are 400px wide by 100px high. Click 'Upload Logo' under the Brand Identity tab, then click 'Save Changes'.",
+  "content_hash": "74e4d31d93d8670ad965e42724e8182bc81a7c79c2d80718111d11888b6b050b"
+}

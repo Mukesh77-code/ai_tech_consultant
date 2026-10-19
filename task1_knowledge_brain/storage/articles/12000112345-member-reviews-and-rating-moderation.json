@@ -1,0 +1,24 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000112345-member-reviews-and-rating-moderation",
+  "title": "Managing Member Reviews and Rating Moderation",
+  "category": "My Members > Member Reviews",
+  "sections": [
+    {
+      "heading": "Review Moderation Settings",
+      "content": "To manage and moderate client reviews submitted to member profiles:\n1. Go to My Members > Member Reviews.\n2. Pending reviews are listed with star ratings, reviewer comments, and member profile link.\n3. Admins can click 'Approve', 'Decline', or 'Edit'.\n4. In General Settings > Member Settings, you can enable 'Auto-Approve Reviews' or require manual admin approval before reviews become publicly visible."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Open My Members > Member Reviews",
+      "Inspect incoming reviews with star ratings and comments",
+      "Click Approve to publish or Decline to discard",
+      "Configure Auto-Approve policy in Member Settings"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "Review Moderation Settings\nTo manage and moderate client reviews submitted to member profiles:\n1. Go to My Members > Member Reviews.\n2. Pending reviews are listed with star ratings, reviewer comments, and member profile link.\n3. Admins can click 'Approve', 'Decline', or 'Edit'.\n4. In General Settings > Member Settings, you can enable 'Auto-Approve Reviews' or require manual admin approval before reviews become publicly visible.",
+  "content_hash": "7e5ad97f78a9ca29c493671fae5f940e10a5ad001830d500c6f8cf45dabf51d9"
+}

@@ -1,0 +1,829 @@
+{
+  "project_id": "Meeting-A",
+  "analysis": {
+    "project_title": "DirectoryHub - Advanced Search & Member Experience Overhaul",
+    "client_name": "Alex Rivers (DirectoryHub)",
+    "metadata": {
+      "meeting date": "October 14, 2026",
+      "attendees": "Alex Rivers (Client, CEO at DirectoryHub), Marcus Bennett (Lead Consultant, AI Tech Consulting), Maya Lin (Senior Solutions Architect)"
+    },
+    "requirements": [
+      {
+        "req_id": "REQ-001",
+        "description": "Distance and radius-based filtering by zip code and user geolocation (5, 10, 25 miles).",
+        "source_passage": "We desperately need distance and zip code radius search so visitors can specify 5, 10, or 25 miles.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Visitors can input a zip code or enable location to see members within selected radius.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-002",
+        "description": "Interactive Google Maps display on search results page with geocoded member pins.",
+        "source_passage": "We also want an interactive map display on the search results page alongside the member cards so users can see pins on the map.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Search results render a dynamic map with pins corresponding to matched member listings.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-003",
+        "description": "Enhanced member search cards with photos, verified badges, star ratings, and category labels.",
+        "source_passage": "On the search cards, we need member profile photos, verified badges, star rating reviews, and their primary service categories.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Search cards display member headshots, review ratings, categories, and verified badges.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-004",
+        "description": "Member phone number privacy protection (hidden from anonymous public visitors).",
+        "source_passage": "We want member phone numbers hidden from anonymous visitors. Only logged-in registered members should be able to see their direct phone number.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Anonymous users see 'Login to View Phone'; logged-in users see direct phone number.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-005",
+        "description": "Lead capture contact form with automated email alerts and HubSpot CRM webhook export.",
+        "source_passage": "When a lead is submitted... automated confirmation email sent to visitor, notification emailed to member... lead data pushed to HubSpot CRM via webhook.",
+        "speaker": "Alex Rivers",
+        "priority": "Should-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Lead form triggers transactional emails and HTTP POST webhook payload to CRM endpoint.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-006",
+        "description": "Mobile web responsive performance optimization and homepage hero banner update.",
+        "source_passage": "Over 65% of our traffic is on smartphones... sluggish on mobile... need fast mobile performance and updated homepage banner.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Mobile page load under 2.5s; hero banner uploaded in 1920x600 WebP format.",
+        "dependencies": []
+      }
+    ],
+    "explicit_exclusions": [
+      "Native iOS and Android mobile app store development (strictly responsive web)."
+    ],
+    "constraints": {
+      "timeline": "6 to 8 weeks"
+    },
+    "open_questions": []
+  },
+  "feasibility_results": [
+    {
+      "req_id": "REQ-001",
+      "classification": "existing_configuration",
+      "justification": "Fully supported natively out of the box in Brilliant Directories. Administrators configure the Google Maps JavaScript and Geocoding API keys under Settings > General Settings > Integrations.",
+      "documented_settings_path": "Settings > General Settings > Integrations",
+      "supporting_kb_sources": [
+        {
+          "title": "Google Maps API Configuration and Distance Search Radius",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045678-google-maps-api-setup-and-search-radius",
+          "section": "Radius and Zip Code Search",
+          "excerpt": "Article: Google Maps API Configuration and Distance Search Radius\nCategory: Settings > Integrations\nSection: Radius and Zip Code Search\n\nUsers can search directory listings by distance (miles or kilometers) and zip code. Under My Members > Search Results, you can configure the default search radius options (e.g. 5, 10, 25, 50, 100 miles) and enable",
+          "image_url": null
+        }
+      ],
+      "recommended_approach": "Configure native Google Maps API keys and enable default radius options (5, 10, 25 miles)."
+    },
+    {
+      "req_id": "REQ-002",
+      "classification": "existing_configuration",
+      "justification": "Fully supported natively out of the box in Brilliant Directories. Administrators configure the Google Maps JavaScript and Geocoding API keys under Settings > General Settings > Integrations.",
+      "documented_settings_path": "Settings > General Settings > Integrations",
+      "supporting_kb_sources": [
+        {
+          "title": "Google Maps API Configuration and Distance Search Radius",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045678-google-maps-api-setup-and-search-radius",
+          "section": "Google Maps Integration",
+          "excerpt": "Article: Google Maps API Configuration and Distance Search Radius\nCategory: Settings > Integrations\nSection: Google Maps Integration\n\nBrilliant Directories uses Google Maps API for geocoding, radius-based distance searches, and interactive map displays. To enable Google Maps:\n1. Navigate to Settings > General Settings > Integrations tab.\n2. In the ",
+          "image_url": null
+        }
+      ],
+      "recommended_approach": "Configure native Google Maps API keys and enable default radius options (5, 10, 25 miles)."
+    },
+    {
+      "req_id": "REQ-003",
+      "classification": "existing_configuration",
+      "justification": "Natively built into Brilliant Directories under My Members > Member Reviews with admin approval and moderation.",
+      "documented_settings_path": "My Members > Member Reviews",
+      "supporting_kb_sources": [],
+      "recommended_approach": "Activate member review moderation and star rating display on search cards."
+    },
+    {
+      "req_id": "REQ-004",
+      "classification": "existing_configuration",
+      "justification": "Natively supported in Membership Plans under Search Visibility. Allows administrators to restrict phone number visibility to logged-in members or specific premium tiers.",
+      "documented_settings_path": "Finance > Membership Plans > Search Visibility",
+      "supporting_kb_sources": [
+        {
+          "title": "Member Privacy Settings and Hiding Phone Numbers",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090123-member-privacy-and-phone-number-visibility",
+          "section": "Protecting Member Contact Details",
+          "excerpt": "Article: Member Privacy Settings and Hiding Phone Numbers\nCategory: Finance > Membership Plans > Search Visibility\nSection: Protecting Member Contact Details\n\nDirectory administrators can restrict visibility of member phone numbers, email addresses, and physical addresses to logged-in members or premium subscribers only.\n1. Go to Finance > Membersh",
+          "image_url": null
+        }
+      ],
+      "recommended_approach": "Set phone number display toggle to 'Only Logged-in Members' in plan settings."
+    },
+    {
+      "req_id": "REQ-005",
+      "classification": "existing_configuration",
+      "justification": "Brilliant Directories supports outbound Webhooks natively under Settings > Webhooks to push lead inquiries and new signups directly to Zapier or HubSpot CRM.",
+      "documented_settings_path": "Settings > Webhooks",
+      "supporting_kb_sources": [
+        {
+          "title": "Setting Up Webhooks and Zapier for Lead Export",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089012-lead-webhooks-and-zapier-integration",
+          "section": "Lead Webhook Export",
+          "excerpt": "Article: Setting Up Webhooks and Zapier for Lead Export\nCategory: Integrations > Webhooks\nSection: Lead Webhook Export\n\nYou can export customer inquiries, member signups, and reviews in real-time to CRMs (HubSpot, Salesforce, Zoho) via Webhooks and Zapier.\n1. Navigate to Settings > Webhooks.\n2. Click 'Add New Webhook'.\n3. Select Trigger Event: 'New",
+          "image_url": null
+        },
+        {
+          "title": "Customizing Automated Email Templates and Member Notifications",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078901-customizing-email-templates-and-notifications",
+          "section": "Email Templates Overview",
+          "excerpt": "Article: Customizing Automated Email Templates and Member Notifications\nCategory: Emails > Email Templates\nSection: Email Templates Overview\n\nBrilliant Directories sends automated transactional emails for member registration, welcome messages, payment receipts, password resets, and lead inquiries. All emails are customizable under Emails > Email Te",
+          "image_url": null
+        }
+      ],
+      "recommended_approach": "Configure outbound webhook trigger for 'Lead Generated' with target CRM endpoint URL."
+    },
+    {
+      "req_id": "REQ-006",
+      "classification": "existing_configuration",
+      "justification": "Documented in Brilliant Directories Solution Center: Based on the Brilliant Directories documentation in **Homepage Hero Banner Image Dimensions and Design Guidelines**:\n\nRecommended steps:\n- 1. Navigate to Settings > Design Settings.\n- 2. Click the 'Ho",
+      "documented_settings_path": null,
+      "supporting_kb_sources": [
+        {
+          "title": "Homepage Hero Banner Image Dimensions and Design Guidelines",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000167890-homepage-hero-banner-image-dimensions",
+          "section": "Hero Banner Dimensions",
+          "excerpt": "Article: Homepage Hero Banner Image Dimensions and Design Guidelines\nCategory: Settings > Design Settings\nSection: Hero Banner Dimensions\n\nThe recommended image dimensions for the homepage hero background banner are 1920 pixels wide by 600 pixels high (1920x600 px). Use optimized JPEG or WebP images under 300KB to ensure fast page load speeds on mo",
+          "image_url": null
+        }
+      ],
+      "recommended_approach": "Implement using standard administrative documentation."
+    }
+  ],
+  "scope_of_work": {
+    "project_title": "DirectoryHub - Advanced Search & Member Experience Overhaul",
+    "client_name": "Alex Rivers (DirectoryHub)",
+    "project_objective": "Deliver a high-performance, conversion-optimized directory portal for Alex Rivers (DirectoryHub).",
+    "current_problem": "Current platform lacks distance radius filtering, causing visitor drop-off and irrelevant search results. Mobile user experience requires optimization, and key commercial checkout and lead export workflows require automated integration to prevent manual administrative overhead.",
+    "agreed_requirements": [
+      {
+        "req_id": "REQ-001",
+        "description": "Distance and radius-based filtering by zip code and user geolocation (5, 10, 25 miles).",
+        "source_passage": "We desperately need distance and zip code radius search so visitors can specify 5, 10, or 25 miles.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Visitors can input a zip code or enable location to see members within selected radius.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-002",
+        "description": "Interactive Google Maps display on search results page with geocoded member pins.",
+        "source_passage": "We also want an interactive map display on the search results page alongside the member cards so users can see pins on the map.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Search results render a dynamic map with pins corresponding to matched member listings.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-003",
+        "description": "Enhanced member search cards with photos, verified badges, star ratings, and category labels.",
+        "source_passage": "On the search cards, we need member profile photos, verified badges, star rating reviews, and their primary service categories.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Search cards display member headshots, review ratings, categories, and verified badges.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-004",
+        "description": "Member phone number privacy protection (hidden from anonymous public visitors).",
+        "source_passage": "We want member phone numbers hidden from anonymous visitors. Only logged-in registered members should be able to see their direct phone number.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Anonymous users see 'Login to View Phone'; logged-in users see direct phone number.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-005",
+        "description": "Lead capture contact form with automated email alerts and HubSpot CRM webhook export.",
+        "source_passage": "When a lead is submitted... automated confirmation email sent to visitor, notification emailed to member... lead data pushed to HubSpot CRM via webhook.",
+        "speaker": "Alex Rivers",
+        "priority": "Should-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Lead form triggers transactional emails and HTTP POST webhook payload to CRM endpoint.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-006",
+        "description": "Mobile web responsive performance optimization and homepage hero banner update.",
+        "source_passage": "Over 65% of our traffic is on smartphones... sluggish on mobile... need fast mobile performance and updated homepage banner.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Mobile page load under 2.5s; hero banner uploaded in 1920x600 WebP format.",
+        "dependencies": []
+      }
+    ],
+    "proposed_solution": "Implement a cohesive, hybrid solution leveraging Brilliant Directories native configuration for core settings (Google Maps radius, payment gateways, review moderation) and dedicated custom modules where out-of-the-box settings are insufficient, ensuring optimal budget allocation and fast delivery.",
+    "deliverables": [
+      "REQ-001: Distance and radius-based filtering by zip code and user geolocation (5, 10, 25 miles). [EXISTING CONFIGURATION]",
+      "REQ-002: Interactive Google Maps display on search results page with geocoded member pins. [EXISTING CONFIGURATION]",
+      "REQ-003: Enhanced member search cards with photos, verified badges, star ratings, and category labels. [EXISTING CONFIGURATION]",
+      "REQ-004: Member phone number privacy protection (hidden from anonymous public visitors). [EXISTING CONFIGURATION]",
+      "REQ-005: Lead capture contact form with automated email alerts and HubSpot CRM webhook export. [EXISTING CONFIGURATION]",
+      "REQ-006: Mobile web responsive performance optimization and homepage hero banner update. [EXISTING CONFIGURATION]"
+    ],
+    "explicit_exclusions": [
+      "Native iOS and Android mobile app store development (strictly responsive web)."
+    ],
+    "assumptions_and_dependencies": [
+      "Client will provide valid administrative API credentials (Google Cloud, Stripe, PayPal).",
+      "Brilliant Directories hosted platform uptime and core codebase maintained by vendor.",
+      "Work will be verified against agreed acceptance criteria in a dedicated staging environment prior to production launch."
+    ],
+    "acceptance_criteria": [
+      "REQ-001: Visitors can input a zip code or enable location to see members within selected radius.",
+      "REQ-002: Search results render a dynamic map with pins corresponding to matched member listings.",
+      "REQ-003: Search cards display member headshots, review ratings, categories, and verified badges.",
+      "REQ-004: Anonymous users see 'Login to View Phone'; logged-in users see direct phone number.",
+      "REQ-005: Lead form triggers transactional emails and HTTP POST webhook payload to CRM endpoint.",
+      "REQ-006: Mobile page load under 2.5s; hero banner uploaded in 1920x600 WebP format."
+    ],
+    "client_responsibilities": [
+      "Provide Google Cloud Console billing account and API keys with Geocoding and Maps JavaScript APIs enabled.",
+      "Provide production and sandbox API keys for Stripe and PayPal merchant accounts.",
+      "Review and approve staging deployment milestones within 3 business days of delivery.",
+      "Supply high-resolution brand assets (transparent PNG logo, 1920x600 hero banner)."
+    ],
+    "open_questions_and_risks": [
+      "Google Maps API usage quotas: High search volume may incur Google Cloud consumption charges.",
+      "Browser geolocation permission: Distance search radius requires end-user browser GPS permission consent.",
+      "Third-party API rate limits and webhook delivery guarantees."
+    ]
+  },
+  "task_estimates": [
+    {
+      "task_id": "TASK-001",
+      "deliverable": "REQ-001",
+      "task_name": "REQ-001 - Platform Administrative Configuration",
+      "low_hours": 2.0,
+      "likely_hours": 3.5,
+      "high_hours": 5.0,
+      "reasoning": "Configure native settings in Settings > General Settings > Integrations. Verify API keys.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Client provides valid administrative credentials."
+      ]
+    },
+    {
+      "task_id": "TASK-002",
+      "deliverable": "REQ-001",
+      "task_name": "REQ-001 - Frontend Layout & Template Customization",
+      "low_hours": 3.0,
+      "likely_hours": 5.0,
+      "high_hours": 8.0,
+      "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Standard Bootstrap responsive grid applies."
+      ]
+    },
+    {
+      "task_id": "TASK-003",
+      "deliverable": "REQ-001",
+      "task_name": "REQ-001 - End-to-End QA & Staging Acceptance Testing",
+      "low_hours": 1.5,
+      "likely_hours": 2.5,
+      "high_hours": 4.0,
+      "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Staging environment mirrors production database schema."
+      ]
+    },
+    {
+      "task_id": "TASK-004",
+      "deliverable": "REQ-002",
+      "task_name": "REQ-002 - Platform Administrative Configuration",
+      "low_hours": 2.0,
+      "likely_hours": 3.5,
+      "high_hours": 5.0,
+      "reasoning": "Configure native settings in Settings > General Settings > Integrations. Verify API keys.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Client provides valid administrative credentials."
+      ]
+    },
+    {
+      "task_id": "TASK-005",
+      "deliverable": "REQ-002",
+      "task_name": "REQ-002 - Frontend Layout & Template Customization",
+      "low_hours": 3.0,
+      "likely_hours": 5.0,
+      "high_hours": 8.0,
+      "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Standard Bootstrap responsive grid applies."
+      ]
+    },
+    {
+      "task_id": "TASK-006",
+      "deliverable": "REQ-002",
+      "task_name": "REQ-002 - End-to-End QA & Staging Acceptance Testing",
+      "low_hours": 1.5,
+      "likely_hours": 2.5,
+      "high_hours": 4.0,
+      "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Staging environment mirrors production database schema."
+      ]
+    },
+    {
+      "task_id": "TASK-007",
+      "deliverable": "REQ-003",
+      "task_name": "REQ-003 - Platform Administrative Configuration",
+      "low_hours": 2.0,
+      "likely_hours": 3.5,
+      "high_hours": 5.0,
+      "reasoning": "Configure native settings in My Members > Member Reviews. Verify API keys.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Client provides valid administrative credentials."
+      ]
+    },
+    {
+      "task_id": "TASK-008",
+      "deliverable": "REQ-003",
+      "task_name": "REQ-003 - Frontend Layout & Template Customization",
+      "low_hours": 3.0,
+      "likely_hours": 5.0,
+      "high_hours": 8.0,
+      "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Standard Bootstrap responsive grid applies."
+      ]
+    },
+    {
+      "task_id": "TASK-009",
+      "deliverable": "REQ-003",
+      "task_name": "REQ-003 - End-to-End QA & Staging Acceptance Testing",
+      "low_hours": 1.5,
+      "likely_hours": 2.5,
+      "high_hours": 4.0,
+      "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Staging environment mirrors production database schema."
+      ]
+    },
+    {
+      "task_id": "TASK-010",
+      "deliverable": "REQ-004",
+      "task_name": "REQ-004 - Platform Administrative Configuration",
+      "low_hours": 2.0,
+      "likely_hours": 3.5,
+      "high_hours": 5.0,
+      "reasoning": "Configure native settings in Finance > Membership Plans > Search Visibility. Verify API keys.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Client provides valid administrative credentials."
+      ]
+    },
+    {
+      "task_id": "TASK-011",
+      "deliverable": "REQ-004",
+      "task_name": "REQ-004 - Frontend Layout & Template Customization",
+      "low_hours": 3.0,
+      "likely_hours": 5.0,
+      "high_hours": 8.0,
+      "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Standard Bootstrap responsive grid applies."
+      ]
+    },
+    {
+      "task_id": "TASK-012",
+      "deliverable": "REQ-004",
+      "task_name": "REQ-004 - End-to-End QA & Staging Acceptance Testing",
+      "low_hours": 1.5,
+      "likely_hours": 2.5,
+      "high_hours": 4.0,
+      "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Staging environment mirrors production database schema."
+      ]
+    },
+    {
+      "task_id": "TASK-013",
+      "deliverable": "REQ-005",
+      "task_name": "REQ-005 - Platform Administrative Configuration",
+      "low_hours": 2.0,
+      "likely_hours": 3.5,
+      "high_hours": 5.0,
+      "reasoning": "Configure native settings in Settings > Webhooks. Verify API keys.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Client provides valid administrative credentials."
+      ]
+    },
+    {
+      "task_id": "TASK-014",
+      "deliverable": "REQ-005",
+      "task_name": "REQ-005 - Frontend Layout & Template Customization",
+      "low_hours": 3.0,
+      "likely_hours": 5.0,
+      "high_hours": 8.0,
+      "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Standard Bootstrap responsive grid applies."
+      ]
+    },
+    {
+      "task_id": "TASK-015",
+      "deliverable": "REQ-005",
+      "task_name": "REQ-005 - End-to-End QA & Staging Acceptance Testing",
+      "low_hours": 1.5,
+      "likely_hours": 2.5,
+      "high_hours": 4.0,
+      "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Staging environment mirrors production database schema."
+      ]
+    },
+    {
+      "task_id": "TASK-016",
+      "deliverable": "REQ-006",
+      "task_name": "REQ-006 - Platform Administrative Configuration",
+      "low_hours": 2.0,
+      "likely_hours": 3.5,
+      "high_hours": 5.0,
+      "reasoning": "Configure native settings in Admin Panel. Verify API keys.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Client provides valid administrative credentials."
+      ]
+    },
+    {
+      "task_id": "TASK-017",
+      "deliverable": "REQ-006",
+      "task_name": "REQ-006 - Frontend Layout & Template Customization",
+      "low_hours": 3.0,
+      "likely_hours": 5.0,
+      "high_hours": 8.0,
+      "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Standard Bootstrap responsive grid applies."
+      ]
+    },
+    {
+      "task_id": "TASK-018",
+      "deliverable": "REQ-006",
+      "task_name": "REQ-006 - End-to-End QA & Staging Acceptance Testing",
+      "low_hours": 1.5,
+      "likely_hours": 2.5,
+      "high_hours": 4.0,
+      "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+      "uncertainty_level": "LOW",
+      "assumptions": [
+        "Staging environment mirrors production database schema."
+      ]
+    }
+  ],
+  "proposal": {
+    "project_title": "DirectoryHub - Advanced Search & Member Experience Overhaul",
+    "client_name": "Alex Rivers (DirectoryHub)",
+    "executive_summary": "AI Tech Consulting is pleased to present this technical scope and proposal for Alex Rivers (DirectoryHub). This engagement targets delivering an optimized, modern web solution addressing current user friction, integrating verified platform capabilities, and delivering measurable performance improvements within an estimated 7.0-week delivery window.",
+    "scope_summary": "Implement a cohesive, hybrid solution leveraging Brilliant Directories native configuration for core settings (Google Maps radius, payment gateways, review moderation) and dedicated custom modules where out-of-the-box settings are insufficient, ensuring optimal budget allocation and fast delivery.",
+    "deliverables": [
+      "REQ-001: Distance and radius-based filtering by zip code and user geolocation (5, 10, 25 miles). [EXISTING CONFIGURATION]",
+      "REQ-002: Interactive Google Maps display on search results page with geocoded member pins. [EXISTING CONFIGURATION]",
+      "REQ-003: Enhanced member search cards with photos, verified badges, star ratings, and category labels. [EXISTING CONFIGURATION]",
+      "REQ-004: Member phone number privacy protection (hidden from anonymous public visitors). [EXISTING CONFIGURATION]",
+      "REQ-005: Lead capture contact form with automated email alerts and HubSpot CRM webhook export. [EXISTING CONFIGURATION]",
+      "REQ-006: Mobile web responsive performance optimization and homepage hero banner update. [EXISTING CONFIGURATION]"
+    ],
+    "timeline_weeks": 7.0,
+    "milestones": [
+      {
+        "milestone": "Milestone 1: Architectural Foundation & Configuration",
+        "weeks": "Week 1 - 2",
+        "deliverables": "Admin settings, API key integrations (Google Maps, Stripe/PayPal), initial staging environment.",
+        "percentage_payment": "30%"
+      },
+      {
+        "milestone": "Milestone 2: Feature Implementation & Template Customization",
+        "weeks": "Week 3 - 6",
+        "deliverables": "Search radius filters, interactive map display, responsive mobile layout, custom workflows.",
+        "percentage_payment": "40%"
+      },
+      {
+        "milestone": "Milestone 3: Quality Assurance, UAT & Production Launch",
+        "weeks": "Week 7",
+        "deliverables": "Cross-device browser verification, client user acceptance sign-off, DNS live deployment.",
+        "percentage_payment": "30%"
+      }
+    ],
+    "task_estimates": [
+      {
+        "task_id": "TASK-001",
+        "deliverable": "REQ-001",
+        "task_name": "REQ-001 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in Settings > General Settings > Integrations. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-002",
+        "deliverable": "REQ-001",
+        "task_name": "REQ-001 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-003",
+        "deliverable": "REQ-001",
+        "task_name": "REQ-001 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-004",
+        "deliverable": "REQ-002",
+        "task_name": "REQ-002 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in Settings > General Settings > Integrations. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-005",
+        "deliverable": "REQ-002",
+        "task_name": "REQ-002 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-006",
+        "deliverable": "REQ-002",
+        "task_name": "REQ-002 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-007",
+        "deliverable": "REQ-003",
+        "task_name": "REQ-003 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in My Members > Member Reviews. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-008",
+        "deliverable": "REQ-003",
+        "task_name": "REQ-003 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-009",
+        "deliverable": "REQ-003",
+        "task_name": "REQ-003 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-010",
+        "deliverable": "REQ-004",
+        "task_name": "REQ-004 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in Finance > Membership Plans > Search Visibility. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-011",
+        "deliverable": "REQ-004",
+        "task_name": "REQ-004 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-012",
+        "deliverable": "REQ-004",
+        "task_name": "REQ-004 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-013",
+        "deliverable": "REQ-005",
+        "task_name": "REQ-005 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in Settings > Webhooks. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-014",
+        "deliverable": "REQ-005",
+        "task_name": "REQ-005 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-015",
+        "deliverable": "REQ-005",
+        "task_name": "REQ-005 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-016",
+        "deliverable": "REQ-006",
+        "task_name": "REQ-006 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in Admin Panel. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-017",
+        "deliverable": "REQ-006",
+        "task_name": "REQ-006 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-018",
+        "deliverable": "REQ-006",
+        "task_name": "REQ-006 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      }
+    ],
+    "total_low_hours": 39.0,
+    "total_likely_hours": 66.0,
+    "total_high_hours": 102.0,
+    "hourly_rate": 120.0,
+    "currency": "USD",
+    "total_estimated_cost": 7920.0,
+    "pricing_assumptions": "Estimates are calculated at a professional services consulting rate of 120.0 USD/hour. Total likely investment is 7920.0 USD based on 66.0 likely engineering hours (Range: 39.0h low to 102.0h high). Invoices are billed per milestone completion upon written client acceptance.",
+    "client_responsibilities": [
+      "Provide Google Cloud Console billing account and API keys with Geocoding and Maps JavaScript APIs enabled.",
+      "Provide production and sandbox API keys for Stripe and PayPal merchant accounts.",
+      "Review and approve staging deployment milestones within 3 business days of delivery.",
+      "Supply high-resolution brand assets (transparent PNG logo, 1920x600 hero banner)."
+    ],
+    "exclusions": [
+      "Native iOS and Android mobile app store development (strictly responsive web)."
+    ],
+    "risks_and_mitigations": [
+      {
+        "risk": "Third-party API credentials delay",
+        "impact": "Schedule slippage",
+        "mitigation": "Client provides verified API keys during Sprint 0 kick-off."
+      },
+      {
+        "risk": "Scope expansion during staging review",
+        "impact": "Budget and timeline variance",
+        "mitigation": "Formal change control process with incremental scope estimation."
+      }
+    ],
+    "approval_and_next_steps": "To proceed with project kick-off:\n1. Review and approve the attached Scope of Work and Deliverables.\n2. Sign the Master Services Agreement (MSA) and Statement of Work (SOW).\n3. Remit the 30% Milestone 1 initial deposit invoice.\n4. Complete the technical onboarding credential checklist."
+  }
+}

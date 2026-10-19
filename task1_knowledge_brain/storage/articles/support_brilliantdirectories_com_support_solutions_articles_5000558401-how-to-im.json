@@ -1,0 +1,85 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558401-how-to-import-categories-via-csv-file",
+  "title": "How To Import Categories Via CSV File",
+  "category": "Solution home > Section: My Members > Member Categories > How To Import Categories Via CSV File",
+  "sections": [
+    {
+      "heading": "How To Import Categories Via CSV File",
+      "content": "Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558401\nTo import a category structure via CSV file (useful for quickly importing large category structures), please follow the steps below for creating the file.\nThis can be used to import up to 3 levels of categories: Top Level Categories, Sub Level Categories, and Sub-Sub Level Categories (for a total of three tiers )."
+    },
+    {
+      "heading": "Step 1: Create The Category Structure in a CSV file",
+      "content": "Download the Category Structure Import Template (attached at the bottom of the article). Open up the file and expand the width of the columns so all of the text can be seen in each one. Column A will have all of the Top-Level Categories Column B will have all of the Sub Categories (optional) Column C will have all of the Sub-Sub Categories (optional)\n4. Fill out the spreadsheet with the categories by replacing the placeholders in the template."
+    },
+    {
+      "heading": "Step 2: Import The Category Structure",
+      "content": "Navigate to Members >> Member Categories select Import Categories:\nThe button will lead to a new page where it is possible to import the file:\nCRITICAL WARNING: Checking the option to delete existing categories will permanently remove all current categories from the database. This action will also unassign all current members from their categories, requiring them to be manually recategorized or re-imported. Only check this box if starting a completely brand-new directory or performing a total category reset. Upload the file here.\nFind the Category Import template attached to this article.\nIMPORTANT NOTE: By default, all members can be listed in 1 Top Level / Main Category and multiple Sub Categories. However, there is a workaround : Workaround: Members Selecting Multiple Top-Level Categories"
+    }
+  ],
+  "full_text": "How To Import Categories Via CSV File\nLink:\nhttps://support.brilliantdirectories.com/support/solutions/articles/5000558401\nTo import a category structure via CSV file (useful for quickly importing large category structures), please follow the steps below for creating the file.\nThis can be used to import up to 3 levels of categories: Top Level Categories, Sub Level Categories, and Sub-Sub Level Categories (for a\ntotal of three tiers\n).\nStep 1: Create The Category Structure in a CSV file\nDownload the Category Structure Import Template (attached at the bottom of the article).\nOpen up the file and expand the width of the columns so all of the text can be seen in each one.\nColumn A\nwill have all of the Top-Level Categories\nColumn\nB\nwill have all of the Sub Categories (optional)\nColumn C\nwill have all of the Sub-Sub Categories (optional)\n4. Fill out the spreadsheet with the categories by replacing the placeholders in the template.\nStep 2: Import The Category Structure\nNavigate to\nMembers >> Member Categories\nselect Import Categories:\nThe button will lead to a new page where it is possible to import the file:\nCRITICAL WARNING:\nChecking the option to delete existing categories will permanently remove all current categories from the database. This action will also unassign all current members from their categories, requiring them to be manually recategorized or re-imported. Only check this box if starting a completely brand-new directory or performing a total category reset.\nUpload the file here.\nFind the Category Import template attached to this article.\nIMPORTANT NOTE: By default, all members can be listed in 1 Top Level / Main Category and multiple Sub Categories. However, there is a workaround\n:\nWorkaround: Members Selecting Multiple Top-Level Categories",
+  "procedural_steps": [
+    [
+      "Download the Category Structure Import Template (attached at the bottom of the article).",
+      "Open up the file and expand the width of the columns so all of the text can be seen in each one.",
+      "Column Awill have all of the Top-Level CategoriesColumnBwill have all of the Sub Categories (optional)Column Cwill have all of the Sub-Sub Categories (optional)"
+    ],
+    [
+      "CRITICAL WARNING:Checking the option to delete existing categories will permanently remove all current categories from the database. This action will also unassign all current members from their categories, requiring them to be manually recategorized or re-imported. Only check this box if starting a completely brand-new directory or performing a total category reset.",
+      "Upload the file here."
+    ]
+  ],
+  "tables": [],
+  "images": [
+    {
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074693982/original/QORGDzC_aYpnRbZBCdD-Mnr1BdDKdexnWA.png?1583248842",
+      "alt_text": "",
+      "surrounding_context": "4. Fill out the spreadsheet with the categories by replacing the placeholders in the template."
+    },
+    {
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074694409/original/_CpKps0VX60nBTIrY3r1GfXBvyjYylQJXg.png?1583249244",
+      "alt_text": "",
+      "surrounding_context": ""
+    },
+    {
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171252789/original/c_8Lg6thRZqJ4vbTF83U2iteIZAplJLMxg.png?1764552502",
+      "alt_text": "",
+      "surrounding_context": ""
+    },
+    {
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097399352/original/tIBlFCLyIiZTlHaEeqcG_95NyCvySXaDZg.png?1630013869",
+      "alt_text": "",
+      "surrounding_context": ""
+    }
+  ],
+  "content_hash": "d58c7af322d6469fa41b8f9c5e27f3ad75ab2c4799492b6db0167a48ac99c3e7",
+  "enriched_images": [
+    {
+      "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074693982/original/QORGDzC_aYpnRbZBCdD-Mnr1BdDKdexnWA.png?1583248842",
+      "visual_description": "Screenshot illustrating 'How To Import Categories Via CSV File'. Context: 4. Fill out the spreadsheet with the categories by replacing the placeholders in the template.. ",
+      "interface_labels": [],
+      "settings_path": "Dashboard",
+      "source": "contextual_multimodal_analyzer"
+    },
+    {
+      "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074694409/original/_CpKps0VX60nBTIrY3r1GfXBvyjYylQJXg.png?1583249244",
+      "visual_description": "Screenshot illustrating 'How To Import Categories Via CSV File'. Context: . ",
+      "interface_labels": [],
+      "settings_path": "Dashboard",
+      "source": "contextual_multimodal_analyzer"
+    },
+    {
+      "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171252789/original/c_8Lg6thRZqJ4vbTF83U2iteIZAplJLMxg.png?1764552502",
+      "visual_description": "Screenshot illustrating 'How To Import Categories Via CSV File'. Context: . ",
+      "interface_labels": [],
+      "settings_path": "Dashboard",
+      "source": "contextual_multimodal_analyzer"
+    },
+    {
+      "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097399352/original/tIBlFCLyIiZTlHaEeqcG_95NyCvySXaDZg.png?1630013869",
+      "visual_description": "Screenshot illustrating 'How To Import Categories Via CSV File'. Context: . ",
+      "interface_labels": [],
+      "settings_path": "Dashboard",
+      "source": "contextual_multimodal_analyzer"
+    }
+  ]
+}

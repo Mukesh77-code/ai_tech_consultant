@@ -1,0 +1,25 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000145678-member-blog-posts-and-community-articles",
+  "title": "Enabling Member Blog Posts and Community Articles Publishing",
+  "category": "My Members > Member Dashboard Features",
+  "sections": [
+    {
+      "heading": "Member Article Publishing",
+      "content": "Members can author and publish blog posts, community articles, classifieds, and events directly from their member dashboard:\n1. Navigate to Finance > Membership Plans.\n2. Edit the target plan and open the 'Post Publishing' tab.\n3. Locate the 'Community Articles / Blog Posts' post type.\n4. Set Publishing Permission to 'Can Publish' (or set maximum post limits).\n5. When logged into their member dashboard, members click 'Publish Content' > 'Add New Article' to draft and post."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Navigate to Finance > Membership Plans",
+      "Edit membership plan and open Post Publishing tab",
+      "Enable Community Articles / Blog Posts permission",
+      "Set post limits and moderation options",
+      "Click Save Changes"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "Member Article Publishing\nMembers can author and publish blog posts, community articles, classifieds, and events directly from their member dashboard:\n1. Navigate to Finance > Membership Plans.\n2. Edit the target plan and open the 'Post Publishing' tab.\n3. Locate the 'Community Articles / Blog Posts' post type.\n4. Set Publishing Permission to 'Can Publish' (or set maximum post limits).\n5. When logged into their member dashboard, members click 'Publish Content' > 'Add New Article' to draft and post.",
+  "content_hash": "57ff8367a8be53fa3d4b01acb5784eeb3935b2b077ec8e4996ed761d2ad8c1be"
+}

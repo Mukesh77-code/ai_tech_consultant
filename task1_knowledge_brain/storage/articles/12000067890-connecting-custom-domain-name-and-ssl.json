@@ -1,0 +1,29 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067890-connecting-custom-domain-name-and-ssl",
+  "title": "Connecting a Custom Domain Name and Free SSL Certificate",
+  "category": "Settings > Domain Settings",
+  "sections": [
+    {
+      "heading": "Connecting Your Live Domain",
+      "content": "To connect your custom domain (e.g. www.yourdomain.com):\n1. Log into your domain registrar (GoDaddy, Namecheap, Cloudflare, Google Domains).\n2. Create an A Record pointing to the Brilliant Directories server IP address.\n3. In your Brilliant Directories admin, navigate to Settings > Domain Manager.\n4. Click 'Add Custom Domain', enter your domain name, and click 'Connect Domain'."
+    },
+    {
+      "heading": "Enabling Free SSL (HTTPS)",
+      "content": "Brilliant Directories automatically provisions a free Let's Encrypt SSL security certificate once your DNS A-records have propagated. Under Settings > Domain Manager, click 'Install Free SSL' and toggle 'Force HTTPS Everywhere' to green."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Update DNS A-Record at domain registrar pointing to server IP",
+      "Go to Settings > Domain Manager in admin dashboard",
+      "Click Add Custom Domain",
+      "Enter domain name and click Connect Domain",
+      "Click Install Free SSL and toggle Force HTTPS Everywhere"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "Connecting Your Live Domain\nTo connect your custom domain (e.g. www.yourdomain.com):\n1. Log into your domain registrar (GoDaddy, Namecheap, Cloudflare, Google Domains).\n2. Create an A Record pointing to the Brilliant Directories server IP address.\n3. In your Brilliant Directories admin, navigate to Settings > Domain Manager.\n4. Click 'Add Custom Domain', enter your domain name, and click 'Connect Domain'.\n\nEnabling Free SSL (HTTPS)\nBrilliant Directories automatically provisions a free Let's Encrypt SSL security certificate once your DNS A-records have propagated. Under Settings > Domain Manager, click 'Install Free SSL' and toggle 'Force HTTPS Everywhere' to green.",
+  "content_hash": "d5d1b77324b2902b44cd8c0f5e815e2188bd4451d2c978216a493f9e98aa96e1"
+}

@@ -1,0 +1,27 @@
+[Meeting Date: October 18, 2026]
+[Attendees: Alex Rivers (Client, CEO at DirectoryHub), Marcus Bennett (Lead Consultant, AI Tech Consulting), Maya Lin (Senior Solutions Architect)]
+[Context: Follow-up and scope review meeting continuing Project from Meeting A]
+
+Alex Rivers [00:00]: Hi Marcus, Maya. Thanks for meeting again on short notice. Our board met over the weekend and we have some strategic adjustments to our website project scope from our October 14th discussion.
+
+Marcus Bennett [00:20]: Good morning Alex. Adjustments are normal at this stage. Let's review each item so we can update the scope of work and see how it impacts effort and timeline.
+
+Alex Rivers [00:35]: First, regarding search. Standard keyword and radius filtering is still needed, but the board insists that we add an AI-powered conversational search bar. Visitors should be able to type 'find emergency 24/7 commercial plumbers near downtown with at least 4.5 star ratings' and have an LLM parse the intent and dynamically query the directory database. This is a brand new must-have requirement.
+
+Maya Lin [01:10]: An AI conversational search parser. That goes beyond standard platform settings and represents custom backend LLM pipeline integration. We will definitely flag this as a major addition requiring engineering design and vector indexing.
+
+Alex Rivers [01:31]: Second, we also want to add interactive custom polygon boundary drawing on the Google Map so users can hand-draw custom search shapes on the map instead of just circular radius miles.
+
+Marcus Bennett [01:47]: Noted. That's a significant custom frontend geospatial JavaScript component on top of Google Maps.
+
+Alex Rivers [02:00]: Now on the flip side, we are removing one feature to compensate: in Meeting A we asked to send lead inquiries to HubSpot CRM via webhooks. We decided to postpone HubSpot integration entirely for Q2 next year. Please remove the HubSpot lead webhook deliverable from this scope.
+
+Maya Lin [02:24]: Understood. Lead notifications will still be emailed to the member and visitor, but the external HubSpot CRM webhook sync is removed from scope.
+
+Alex Rivers [02:38]: Correct. And regarding member privacy: in Meeting A we agreed that phone numbers would be visible to registered logged-in members. We are modifying that: now, phone numbers should ONLY be visible to members on our 'Premium Verified' membership plan. Free registered members should NOT see phone numbers either.
+
+Marcus Bennett [03:07]: That's a clear refinement. We will update the acceptance criteria for member privacy. Now, what about the timeline?
+
+Alex Rivers [03:19]: This is the hardest part. Our board announced an early launch date for our flagship industry event. We need everything ready and launched in 4 weeks instead of the original 6 to 8 weeks! Can we deliver in 4 weeks with these changes?
+
+Marcus Bennett [03:41]: That is a severe compression of timeline, especially with AI conversational search and polygon mapping added. We will run this through our change comparison engine, recalculate development hours, flag the out-of-scope items, and provide a revised proposal with risk mitigations.

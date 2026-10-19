@@ -1,0 +1,48 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045678-google-maps-api-setup-and-search-radius",
+  "title": "Google Maps API Configuration and Distance Search Radius",
+  "category": "Settings > Integrations",
+  "sections": [
+    {
+      "heading": "Google Maps Integration",
+      "content": "Brilliant Directories uses Google Maps API for geocoding, radius-based distance searches, and interactive map displays. To enable Google Maps:\n1. Navigate to Settings > General Settings > Integrations tab.\n2. In the Google Maps API Key field, enter your valid Google Cloud Maps JavaScript API key.\n3. Enable Geocoding API and Places API in your Google Cloud Console."
+    },
+    {
+      "heading": "Radius and Zip Code Search",
+      "content": "Users can search directory listings by distance (miles or kilometers) and zip code. Under My Members > Search Results, you can configure the default search radius options (e.g. 5, 10, 25, 50, 100 miles) and enable auto-detect user location."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Open Settings > General Settings > Integrations",
+      "Enter Google Maps API Key",
+      "Enable Maps JavaScript, Geocoding, and Places APIs in Google Console",
+      "Select Miles or Kilometers as distance unit",
+      "Click Save Changes"
+    ]
+  ],
+  "tables": [],
+  "images": [
+    {
+      "url": "https://support.brilliantdirectories.com/images/google-maps-api-settings.png",
+      "alt_text": "Google Maps API Integration Settings",
+      "surrounding_context": "Enter your Google Maps API Key in Settings > General Settings > Integrations."
+    }
+  ],
+  "enriched_images": [
+    {
+      "image_url": "https://support.brilliantdirectories.com/images/google-maps-api-settings.png",
+      "visual_description": "Screenshot of Integrations tab showing Google Maps API Key field, Distance Measurement dropdown (Miles/KM), and Save Changes.",
+      "interface_labels": [
+        "Integrations",
+        "Google Maps API Key",
+        "Distance Units",
+        "Save Changes"
+      ],
+      "settings_path": "Settings > General Settings > Integrations",
+      "source": "seed_multimodal"
+    }
+  ],
+  "full_text": "Google Maps Integration\nBrilliant Directories uses Google Maps API for geocoding, radius-based distance searches, and interactive map displays. To enable Google Maps:\n1. Navigate to Settings > General Settings > Integrations tab.\n2. In the Google Maps API Key field, enter your valid Google Cloud Maps JavaScript API key.\n3. Enable Geocoding API and Places API in your Google Cloud Console.\n\nRadius and Zip Code Search\nUsers can search directory listings by distance (miles or kilometers) and zip code. Under My Members > Search Results, you can configure the default search radius options (e.g. 5, 10, 25, 50, 100 miles) and enable auto-detect user location.",
+  "content_hash": "f794de5d90ae1eec00d2335d28956750fbfe2a1f01896e945e28f8eb37c6f84e"
+}

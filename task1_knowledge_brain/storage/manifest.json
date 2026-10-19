@@ -1,0 +1,207 @@
+{
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000023456-how-to-setup-stripe-payment-gateway": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000023456-how-to-setup-stripe-payment-gateway",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "8664a50d0621a001f49c1cb2a80e3fffb73f87386b4a1397e6183f44d3fa3169",
+    "title": "How to Setup Stripe Payment Gateway",
+    "image_count": 1,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000034567-general-settings-logo-and-contact-details": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034567-general-settings-logo-and-contact-details",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "74e4d31d93d8670ad965e42724e8182bc81a7c79c2d80718111d11888b6b050b",
+    "title": "General Settings: Website Logo, Contact Info and Brand Colors",
+    "image_count": 1,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000045678-google-maps-api-setup-and-search-radius": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045678-google-maps-api-setup-and-search-radius",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "f794de5d90ae1eec00d2335d28956750fbfe2a1f01896e945e28f8eb37c6f84e",
+    "title": "Google Maps API Configuration and Distance Search Radius",
+    "image_count": 1,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000056789-how-to-process-refunds-and-member-cancellations": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056789-how-to-process-refunds-and-member-cancellations",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "dde8968c990722eae43f2582a9a693bf822f8074920faa3e7f6f6b5386692cfd",
+    "title": "How to Process Member Refunds and Account Cancellations",
+    "image_count": 1,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000067890-connecting-custom-domain-name-and-ssl": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067890-connecting-custom-domain-name-and-ssl",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "d5d1b77324b2902b44cd8c0f5e815e2188bd4451d2c978216a493f9e98aa96e1",
+    "title": "Connecting a Custom Domain Name and Free SSL Certificate",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000078901-customizing-email-templates-and-notifications": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078901-customizing-email-templates-and-notifications",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "4f14194eb931f4f6d487aab7a48f9f1299046f2fd81667f8dd95e6cf76ec1e66",
+    "title": "Customizing Automated Email Templates and Member Notifications",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000089012-lead-webhooks-and-zapier-integration": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089012-lead-webhooks-and-zapier-integration",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "b547fd1c4a5ccb12419065021e8ea0675cf3b7474e0e3c075866ead722707854",
+    "title": "Setting Up Webhooks and Zapier for Lead Export",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000090123-member-privacy-and-phone-number-visibility": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090123-member-privacy-and-phone-number-visibility",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "775d469a560dce135315081e34e8fff7f4498b2763c7a46c3006e3a43e021f22",
+    "title": "Member Privacy Settings and Hiding Phone Numbers",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000101234-bulk-import-members-csv": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101234-bulk-import-members-csv",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "b832a9e53511d6177c0581752779e69205ab8c9c236bb16057f5aaef85ea0dc2",
+    "title": "How to Bulk Import Members Using CSV Spreadsheets",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000112345-member-reviews-and-rating-moderation": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000112345-member-reviews-and-rating-moderation",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "7e5ad97f78a9ca29c493671fae5f940e10a5ad001830d500c6f8cf45dabf51d9",
+    "title": "Managing Member Reviews and Rating Moderation",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/5000558357-can-i-send-a-mass-email-campaign-using-brilliant-directories-": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558357-can-i-send-a-mass-email-campaign-using-brilliant-directories-",
+    "status": "indexed",
+    "content_hash": "30a279b447e8502df51d6aa845cce53611d1d4524c51e5ff2d9003ebff534b33",
+    "lastmod": "2026-06-18T06:08:26+05:30",
+    "title": "Can I Send A Mass Email Campaign Using Brilliant Directories?",
+    "image_count": 0,
+    "error": null,
+    "last_processed": "2026-10-18T21:23:25.245337Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts",
+    "status": "indexed",
+    "content_hash": "30d6002bd45442029a2ea402e30e2980aaeb0ac3b4c7eaaac826c95bd49265aa",
+    "lastmod": "2026-10-14T03:16:38+05:30",
+    "title": "Emails » Email Accounts",
+    "image_count": 2,
+    "error": null,
+    "last_processed": "2026-10-18T21:23:26.971347Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/5000558373-email-forwarders": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558373-email-forwarders",
+    "status": "indexed",
+    "content_hash": "fac777f31e4752f808d8144ccdbbaa1fc60db696308e43a30b4b635a5dba1bb3",
+    "lastmod": "2026-06-18T01:10:33+05:30",
+    "title": "Email Forwarders",
+    "image_count": 0,
+    "error": null,
+    "last_processed": "2026-10-18T21:23:28.760555Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/5000558389-settings-general-settings-social-media-tab": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558389-settings-general-settings-social-media-tab",
+    "status": "indexed",
+    "content_hash": "9cdd63cdeb1447427a13774419b420384e7dba739ca2d89afae91a930d56dddb",
+    "lastmod": "2023-10-03T22:10:48+05:30",
+    "title": "Settings » General Settings » Social Media Tab",
+    "image_count": 2,
+    "error": null,
+    "last_processed": "2026-10-18T21:23:30.454125Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/5000558401-how-to-import-categories-via-csv-file": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558401-how-to-import-categories-via-csv-file",
+    "status": "indexed",
+    "content_hash": "d58c7af322d6469fa41b8f9c5e27f3ad75ab2c4799492b6db0167a48ac99c3e7",
+    "lastmod": "2026-06-09T17:13:28+05:30",
+    "title": "How To Import Categories Via CSV File",
+    "image_count": 4,
+    "error": null,
+    "last_processed": "2026-10-18T21:23:32.234046Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000123456-free-trial-membership-plans-auto-renew": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000123456-free-trial-membership-plans-auto-renew",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "611aa10e4174ca9b45262146586562cf692ac43bb9b686241e2711da85901f22",
+    "title": "Configuring Free Trial Membership Plans with Auto-Renewing Billing",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000134567-form-manager-customize-signup-fields": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000134567-form-manager-customize-signup-fields",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "c5624ed7212cb7e9a5fc4b70464dd05e8e2115bca75c208d409d3762cdff88e0",
+    "title": "Customizing Form Fields on Member Registration with Form Manager",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000145678-member-blog-posts-and-community-articles": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000145678-member-blog-posts-and-community-articles",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "57ff8367a8be53fa3d4b01acb5784eeb3935b2b077ec8e4996ed761d2ad8c1be",
+    "title": "Enabling Member Blog Posts and Community Articles Publishing",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000156789-paypal-standard-vs-paypal-commerce-platform": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000156789-paypal-standard-vs-paypal-commerce-platform",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "265782be367bf3d22e2119372d6b76a624d61f3e44fba1c1d572011318b29180",
+    "title": "Configuring PayPal Standard vs PayPal Commerce Platform Gateway",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  },
+  "https://support.brilliantdirectories.com/support/solutions/articles/12000167890-homepage-hero-banner-image-dimensions": {
+    "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000167890-homepage-hero-banner-image-dimensions",
+    "status": "indexed",
+    "is_seed": true,
+    "content_hash": "998d91a778737f8cc8d3e734142dcb3b119cda12a68154d3847191041dd5ed47",
+    "title": "Homepage Hero Banner Image Dimensions and Design Guidelines",
+    "image_count": 0,
+    "last_processed": "2026-10-19T00:00:00Z",
+    "attempts": 1
+  }
+}

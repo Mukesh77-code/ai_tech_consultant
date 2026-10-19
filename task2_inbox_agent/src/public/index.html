@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inbox Agent — Human Review & Autonomy Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="header-brand">
+        <div class="brand-icon">📥</div>
+        <div>
+          <h1>Inbox Agent <span class="badge badge-accent">Task 2</span></h1>
+          <p class="subtitle">AI-Powered Support Co-Pilot & 20-Approval Autonomy Engine</p>
+        </div>
+      </div>
+
+      <div class="header-controls">
+        <div class="status-indicator">
+          <span class="status-dot dot-green" id="kb-status-dot"></span>
+          <span class="status-text" id="kb-status-text">Knowledge Brain: Connected</span>
+        </div>
+        <button class="btn btn-outline" id="btn-view-autonomy">⚡ Autonomy Trackers</button>
+        <button class="btn btn-primary" id="btn-process-all">⚡ Batch Draft All</button>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <div class="main-container">
+      <!-- Left Sidebar: Email Inbox List -->
+      <aside class="inbox-sidebar">
+        <div class="sidebar-header">
+          <div class="search-box">
+            <input type="text" id="email-search" placeholder="Search emails or senders...">
+          </div>
+          <div class="category-filters">
+            <button class="filter-chip active" data-filter="ALL">All (50)</button>
+            <button class="filter-chip" data-filter="How-to question">How-to</button>
+            <button class="filter-chip" data-filter="Troubleshooting">Troubleshoot</button>
+            <button class="filter-chip" data-filter="Refund or cancellation">Refunds</button>
+            <button class="filter-chip" data-filter="Complaint">Complaints</button>
+            <button class="filter-chip" data-filter="Quote request">Quotes</button>
+            <button class="filter-chip" data-filter="Project request">Projects</button>
+            <button class="filter-chip" data-filter="Follow-up">Follow-ups</button>
+          </div>
+        </div>
+
+        <div class="email-list" id="email-list-container">
+          <!-- Dynamically populated email cards -->
+          <div class="loading-spinner">Loading 50 customer emails...</div>
+        </div>
+      </aside>
+
+      <!-- Right Panel: Email Detail & Human Review Workspace -->
+      <main class="review-workspace" id="review-workspace">
+        <div class="empty-state" id="empty-state-view">
+          <div class="empty-icon">👈</div>
+          <h2>Select an email from the inbox to review</h2>
+          <p>You can inspect incoming requests, review Knowledge Brain citations, edit drafts, and train the autonomy engine.</p>
+        </div>
+
+        <div class="active-email-view hidden" id="active-email-view">
+          <!-- Active Email Top Bar -->
+          <div class="email-view-header">
+            <div class="email-meta-info">
+              <h2 id="view-email-subject">Subject goes here</h2>
+              <div class="meta-row">
+                <span class="meta-sender" id="view-email-sender">Sender Name &lt;email&gt;</span>
+                <span class="meta-separator">•</span>
+                <span class="meta-date" id="view-email-date">Oct 18, 2026</span>
+                <span class="badge" id="view-category-badge">Category</span>
+                <span class="badge" id="view-risk-badge">Risk</span>
+                <span class="badge" id="view-status-badge">Status</span>
+              </div>
+            </div>
+
+            <div class="email-view-actions">
+              <button class="btn btn-secondary" id="btn-generate-draft">✨ Regenerate Draft</button>
+            </div>
+          </div>
+
+          <!-- Original Email Content Box -->
+          <div class="section-card original-email-card">
+            <div class="card-header">
+              <span class="card-title">📨 Original Customer Message</span>
+            </div>
+            <div class="card-body">
+              <p class="email-body-text" id="view-original-body"></p>
+            </div>
+          </div>
+
+          <!-- Retrieved Knowledge Evidence Box (Task 1 Grounding) -->
+          <div class="section-card knowledge-evidence-card" id="knowledge-evidence-card">
+            <div class="card-header">
+              <span class="card-title">🧠 Task 1 Knowledge Brain Grounding & Citations</span>
+              <span class="grounding-status-tag" id="view-grounding-status">Grounded</span>
+            </div>
+            <div class="card-body">
+              <div class="citations-container" id="citations-list">
+                <!-- Populated citations -->
+              </div>
+            </div>
+          </div>
+
+          <!-- AI Draft & Human Review Box -->
+          <div class="section-card review-card">
+            <div class="card-header">
+              <div class="draft-title-row">
+                <span class="card-title">✍️ AI Generated Draft Response</span>
+                <span class="confidence-pill" id="view-draft-confidence">Confidence: 94%</span>
+              </div>
+              <p class="card-subtitle" id="view-next-action-hint">Next Action: Send instructional guide</p>
+            </div>
+
+            <div class="card-body">
+              <div class="editor-container">
+                <textarea id="draft-textarea" rows="12" class="draft-textarea" placeholder="AI draft response will appear here..."></textarea>
+              </div>
+
+              <!-- Reason for correction (Feedback Learning) -->
+              <div class="correction-reason-box" id="correction-box">
+                <label for="correction-input">Correction Reason / Feedback Notes (Stored for Agent Learning):</label>
+                <input type="text" id="correction-input" placeholder="e.g. Shortened opening paragraph, added direct billing phone extension...">
+              </div>
+
+              <!-- Human Review Action Buttons -->
+              <div class="review-action-bar">
+                <div class="left-actions">
+                  <button class="btn btn-danger-outline" id="btn-reject-rewrite">❌ Reject & Rewrite</button>
+                  <button class="btn btn-warning-outline" id="btn-escalate-expert">🚩 Escalate to Expert</button>
+                </div>
+                <div class="right-actions">
+                  <button class="btn btn-secondary" id="btn-edit-send">✏️ Send with Edits</button>
+                  <button class="btn btn-success" id="btn-approve-as-is">✅ Approve & Send (Unmodified)</button>
+                </div>
+              </div>
+
+              <!-- Sent Notification Banner -->
+              <div class="sent-confirmation hidden" id="sent-confirmation">
+                <span class="confirm-icon">🎉</span>
+                <div>
+                  <strong id="sent-confirm-title">Email Approved and Sent!</strong>
+                  <p id="sent-confirm-desc">Recorded in feedback learning audit. 20-approval counter updated.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- Autonomy Rules Modal -->
+    <div class="modal-overlay hidden" id="autonomy-modal">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div>
+            <h3>20-Consecutive-Approval Autonomy Engine</h3>
+            <p>Categories qualify for autonomous sending trial after 20 consecutive unmodified approved drafts.</p>
+          </div>
+          <button class="btn-close" id="btn-close-modal">✕</button>
+        </div>
+
+        <div class="modal-body">
+          <div class="autonomy-list" id="autonomy-categories-list">
+            <!-- Dynamically populated category progress bars -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558389-settings-general-settings-social-media-tab",
+  "title": "Settings » General Settings » Social Media Tab",
+  "category": "Solution home > Section: Settings > General Settings > Settings » General Settings » Social Media Tab",
+  "sections": [
+    {
+      "heading": "Settings » General Settings » Social Media Tab",
+      "content": "Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558389\nThis article reviews links for the Social Media accounts for the website,  members and visitors will be able to access the full spectrum of profiles available for the website and it helps link the social media world to the website"
+    },
+    {
+      "heading": "Social Media Accounts",
+      "content": "Below is a full list of the Social Media accounts linked to the website.\nImportant note: The system will ask for absolute URLs. For example:\nfacebook.com will not be accepted https://www.facebook.com will be accepted"
+    },
+    {
+      "heading": "1. Facebook",
+      "content": "Add a link to the website's facebook account using the following format: https://www.facebook.com/CompanyFacebook"
+    },
+    {
+      "heading": "2. Twitter",
+      "content": "Add a link to the website's Twitter account using the following format: https://www.twitter.com/CompanyTwitter"
+    },
+    {
+      "heading": "3. LinkedIn",
+      "content": "Add a link to the website's LinkedIn account using the following format: https://www.linkedin.com/CompanyLinkedIn"
+    },
+    {
+      "heading": "4. Pinterest",
+      "content": "Add a link to the website's Pinterest account using the following format: https://www.pinterest.com/CompanyPinteres"
+    },
+    {
+      "heading": "5. Instagram",
+      "content": "Add a link to the website's Instagram account using the following format: https://www.instagram.com/CompanyInstagram"
+    },
+    {
+      "heading": "6. Youtube",
+      "content": "Add a link to the website's Youtube account using the following format: https://www.youtube.com/CompanyYouTube"
+    },
+    {
+      "heading": "7. RSS Feed",
+      "content": "Add a link to the website's RSS feed using the following format: https://www.yourwebsite.com/rss"
+    },
+    {
+      "heading": "8. Tik Tok",
+      "content": "Add a link to the website's TikTok account using the following format: https://www.tiktok.com/@name"
+    },
+    {
+      "heading": "9. Whatsapp",
+      "content": "Add a link to the website's WhatsApp account using the following format: https://wa.me/1XXXXXXXXXX"
+    },
+    {
+      "heading": "10. Snapchat",
+      "content": "Add a link to the website's Snapchat accout using the following format: https://www.snapchat.com/add/username"
+    },
+    {
+      "heading": "Where Do These Links Appear?",
+      "content": "Inside the Footer Menu of the website:"
+    }
+  ],
+  "full_text": "Settings » General Settings » Social Media Tab\nLink:\nhttps://support.brilliantdirectories.com/support/solutions/articles/5000558389\nThis article reviews links for the\nSocial Media\naccounts for the website,  members and visitors will be able to access the full spectrum of profiles available for the website and it helps link the social media world to the website\nSocial Media Accounts\nBelow is a full list of the\nSocial Media\naccounts linked to the website.\nImportant note:\nThe system will ask for absolute URLs. For example:\nfacebook.com\nwill\nnot\nbe accepted\nhttps://www.facebook.com\nwill be accepted\nVisual Guide of the Social Media Links tab\n1. Facebook\nAdd a link to the website's facebook account using the following format: https://www.facebook.com/CompanyFacebook\n2. Twitter\nAdd a link to the website's Twitter account using the following format:\nhttps://www.twitter.com/CompanyTwitter\n3. LinkedIn\nAdd a link to the website's LinkedIn account using the following format: https://www.linkedin.com/CompanyLinkedIn\n4. Pinterest\nAdd a link to the website's Pinterest account using the following format: https://www.pinterest.com/CompanyPinteres\n5. Instagram\nAdd a link to the website's Instagram account using the following format: https://www.instagram.com/CompanyInstagram\n6. Youtube\nAdd a link to the website's Youtube account using the following format: https://www.youtube.com/CompanyYouTube\n7. RSS Feed\nAdd a link to the website's RSS feed using the following format: https://www.yourwebsite.com/rss\n8. Tik Tok\nAdd a link to the website's TikTok account using the following format: https://www.tiktok.com/@name\n9. Whatsapp\nAdd a link to the website's WhatsApp account using the following format: https://wa.me/1XXXXXXXXXX\n10. Snapchat\nAdd a link to the website's Snapchat accout using the following format: https://www.snapchat.com/add/username\nWhere Do These Links Appear?\nInside the Footer Menu of the website:",
+  "procedural_steps": [],
+  "tables": [],
+  "images": [
+    {
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132171349/original/ScGFFTLRwpppX7RsyMTIz3RaD35rEBxnOA.png?1696295524",
+      "alt_text": "",
+      "surrounding_context": "Visual Guide of the Social Media Links tab"
+    },
+    {
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132162075/original/1UNijwTWHMGd6c0gwTZBva0OSvnTeXXyEA.png?1696281494",
+      "alt_text": "",
+      "surrounding_context": ""
+    }
+  ],
+  "content_hash": "9cdd63cdeb1447427a13774419b420384e7dba739ca2d89afae91a930d56dddb",
+  "enriched_images": [
+    {
+      "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132171349/original/ScGFFTLRwpppX7RsyMTIz3RaD35rEBxnOA.png?1696295524",
+      "visual_description": "Screenshot illustrating 'Settings » General Settings » Social Media Tab'. Context: Visual Guide of the Social Media Links tab. ",
+      "interface_labels": [],
+      "settings_path": "Dashboard",
+      "source": "contextual_multimodal_analyzer"
+    },
+    {
+      "image_url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132162075/original/1UNijwTWHMGd6c0gwTZBva0OSvnTeXXyEA.png?1696281494",
+      "visual_description": "Screenshot illustrating 'Settings » General Settings » Social Media Tab'. Context: . ",
+      "interface_labels": [],
+      "settings_path": "Dashboard",
+      "source": "contextual_multimodal_analyzer"
+    }
+  ]
+}

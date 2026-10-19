@@ -1,0 +1,513 @@
+{
+  "change_report": {
+    "original_meeting_id": "Meeting A (Oct 14)",
+    "followup_meeting_id": "Meeting C (Oct 18)",
+    "summary_of_changes": "Meeting C introduced 2 added requirement(s), 0 modified requirement(s), and removed 1 requirement(s). Total net impact is +42.0 engineering hours.",
+    "added_requirements": [
+      {
+        "change_type": "ADDED",
+        "req_id": "REQ-007",
+        "description": "AI-powered natural language conversational search query parser.",
+        "original_state": "Not present in Meeting A scope.",
+        "new_state": "AI-powered natural language conversational search query parser.",
+        "impact_analysis": "Major architectural addition: Requires custom LLM prompt engineering, external API orchestration, and spatial vector indexing outside standard platform settings.",
+        "is_out_of_scope": true,
+        "estimated_hour_delta": 26.5
+      },
+      {
+        "change_type": "ADDED",
+        "req_id": "REQ-008",
+        "description": "Custom Google Maps polygon boundary drawing filter.",
+        "original_state": "Not present in Meeting A scope.",
+        "new_state": "Custom Google Maps polygon boundary drawing filter.",
+        "impact_analysis": "Major architectural addition: Requires custom LLM prompt engineering, external API orchestration, and spatial vector indexing outside standard platform settings.",
+        "is_out_of_scope": true,
+        "estimated_hour_delta": 26.5
+      }
+    ],
+    "modified_requirements": [],
+    "removed_requirements": [
+      {
+        "change_type": "REMOVED",
+        "req_id": "REQ-005",
+        "description": "Lead capture contact form with automated email alerts and HubSpot CRM webhook export. (Postponed / De-scoped)",
+        "original_state": "Lead capture contact form with automated email alerts and HubSpot CRM webhook export.",
+        "new_state": "Removed from active milestone scope.",
+        "impact_analysis": "Reduces development effort and integration risk. Frees up staging test bandwidth.",
+        "is_out_of_scope": false,
+        "estimated_hour_delta": -11.0
+      }
+    ],
+    "out_of_scope_warnings": [
+      "OUT-OF-SCOPE WARNING: [REQ-007] 'AI-powered natural language conversational search query parser.' exceeds standard directory configuration. Requires formal Change Order #REQ-007-CO and additional engineering budget.",
+      "OUT-OF-SCOPE WARNING: [REQ-008] 'Custom Google Maps polygon boundary drawing filter.' exceeds standard directory configuration. Requires formal Change Order #REQ-008-CO and additional engineering budget.",
+      "TIMELINE RISK WARNING: Client requested compressing launch deadline from 6-8 weeks to 4 weeks. Delivering new AI and geospatial custom features under a compressed timeline introduces significant crunch risk. Recommend phasing AI search to Phase 2, or authorizing dedicated parallel engineering sprints."
+    ],
+    "net_hour_delta_likely": 42.0,
+    "revised_total_hours": 102.0,
+    "commercial_recommendation": "Net Scope Variance: +42.0 hours. Recommend executing Change Order CO-01 for the AI Conversational Search and Polygon Mapping modules ($3,180 addition). To safeguard the requested 4-week deadline, recommend launching Core Search & Mobile in Sprint 1 (Week 1-3) and deploying AI Conversational Search in Sprint 2 (Week 4)."
+  },
+  "revised_scope": {
+    "project_title": "DirectoryHub - Advanced Search & Member Experience Overhaul",
+    "client_name": "Alex Rivers (DirectoryHub)",
+    "project_objective": "Deliver a high-performance, conversion-optimized directory portal for Alex Rivers (DirectoryHub).",
+    "current_problem": "Current platform lacks distance radius filtering, causing visitor drop-off and irrelevant search results. Mobile user experience requires optimization, and key commercial checkout and lead export workflows require automated integration to prevent manual administrative overhead.",
+    "agreed_requirements": [
+      {
+        "req_id": "REQ-001",
+        "description": "Distance and radius-based filtering by zip code and user geolocation (5, 10, 25 miles).",
+        "source_passage": "We desperately need distance and zip code radius search so visitors can specify 5, 10, or 25 miles.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Visitors can input a zip code or enable location to see members within selected radius.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-002",
+        "description": "Interactive Google Maps display on search results page with geocoded member pins.",
+        "source_passage": "We also want an interactive map display on the search results page alongside the member cards so users can see pins on the map.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Search results render a dynamic map with pins corresponding to matched member listings.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-003",
+        "description": "Enhanced member search cards with photos, verified badges, star ratings, and category labels.",
+        "source_passage": "On the search cards, we need member profile photos, verified badges, star rating reviews, and their primary service categories.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Search cards display member headshots, review ratings, categories, and verified badges.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-004",
+        "description": "Member phone number privacy protection (hidden from anonymous public visitors).",
+        "source_passage": "We want member phone numbers hidden from anonymous visitors. Only logged-in registered members should be able to see their direct phone number.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Anonymous users see 'Login to View Phone'; logged-in users see direct phone number.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-006",
+        "description": "Mobile web responsive performance optimization and homepage hero banner update.",
+        "source_passage": "Over 65% of our traffic is on smartphones... sluggish on mobile... need fast mobile performance and updated homepage banner.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Mobile page load under 2.5s; hero banner uploaded in 1920x600 WebP format.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-007",
+        "description": "AI-powered natural language conversational search query parser.",
+        "source_passage": "Visitors should be able to type 'find emergency 24/7 commercial plumbers near downtown with at least 4.5 star ratings' and have an LLM parse the intent.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Natural language search input parsed via LLM into structured filter parameters.",
+        "dependencies": []
+      },
+      {
+        "req_id": "REQ-008",
+        "description": "Custom Google Maps polygon boundary drawing filter.",
+        "source_passage": "We also want to add interactive custom polygon boundary drawing on the Google Map so users can hand-draw custom search shapes.",
+        "speaker": "Alex Rivers",
+        "priority": "Must-Have",
+        "status": "Confirmed",
+        "is_inferred": false,
+        "acceptance_criteria": "Users can draw custom polygon vectors on map to filter search results within drawn boundaries.",
+        "dependencies": []
+      }
+    ],
+    "proposed_solution": "Implement a cohesive, hybrid solution leveraging Brilliant Directories native configuration for core settings (Google Maps radius, payment gateways, review moderation) and dedicated custom modules where out-of-the-box settings are insufficient, ensuring optimal budget allocation and fast delivery.",
+    "deliverables": [
+      "REQ-001: Distance and radius-based filtering by zip code and user geolocation (5, 10, 25 miles). [EXISTING CONFIGURATION]",
+      "REQ-002: Interactive Google Maps display on search results page with geocoded member pins. [EXISTING CONFIGURATION]",
+      "REQ-003: Enhanced member search cards with photos, verified badges, star ratings, and category labels. [EXISTING CONFIGURATION]",
+      "REQ-004: Member phone number privacy protection (hidden from anonymous public visitors). [EXISTING CONFIGURATION]",
+      "REQ-006: Mobile web responsive performance optimization and homepage hero banner update. [EXISTING CONFIGURATION]",
+      "REQ-007: AI-powered natural language conversational search query parser. [POTENTIAL CUSTOM DEVELOPMENT]",
+      "REQ-008: Custom Google Maps polygon boundary drawing filter. [POTENTIAL CUSTOM DEVELOPMENT]"
+    ],
+    "explicit_exclusions": [
+      "Native iOS and Android mobile app store development (strictly responsive web)."
+    ],
+    "assumptions_and_dependencies": [
+      "Client will provide valid administrative API credentials (Google Cloud, Stripe, PayPal).",
+      "Brilliant Directories hosted platform uptime and core codebase maintained by vendor.",
+      "Work will be verified against agreed acceptance criteria in a dedicated staging environment prior to production launch."
+    ],
+    "acceptance_criteria": [
+      "REQ-001: Visitors can input a zip code or enable location to see members within selected radius.",
+      "REQ-002: Search results render a dynamic map with pins corresponding to matched member listings.",
+      "REQ-003: Search cards display member headshots, review ratings, categories, and verified badges.",
+      "REQ-004: Anonymous users see 'Login to View Phone'; logged-in users see direct phone number.",
+      "REQ-006: Mobile page load under 2.5s; hero banner uploaded in 1920x600 WebP format.",
+      "REQ-007: Natural language search input parsed via LLM into structured filter parameters.",
+      "REQ-008: Users can draw custom polygon vectors on map to filter search results within drawn boundaries."
+    ],
+    "client_responsibilities": [
+      "Provide Google Cloud Console billing account and API keys with Geocoding and Maps JavaScript APIs enabled.",
+      "Provide production and sandbox API keys for Stripe and PayPal merchant accounts.",
+      "Review and approve staging deployment milestones within 3 business days of delivery.",
+      "Supply high-resolution brand assets (transparent PNG logo, 1920x600 hero banner)."
+    ],
+    "open_questions_and_risks": [
+      "Google Maps API usage quotas: High search volume may incur Google Cloud consumption charges.",
+      "Browser geolocation permission: Distance search radius requires end-user browser GPS permission consent.",
+      "Third-party API rate limits and webhook delivery guarantees."
+    ]
+  },
+  "revised_proposal": {
+    "project_title": "DirectoryHub - Advanced Search & Member Experience Overhaul",
+    "client_name": "Alex Rivers (DirectoryHub)",
+    "executive_summary": "AI Tech Consulting is pleased to present this technical scope and proposal for Alex Rivers (DirectoryHub). This engagement targets delivering an optimized, modern web solution addressing current user friction, integrating verified platform capabilities, and delivering measurable performance improvements within an estimated 4.0-week delivery window.",
+    "scope_summary": "Implement a cohesive, hybrid solution leveraging Brilliant Directories native configuration for core settings (Google Maps radius, payment gateways, review moderation) and dedicated custom modules where out-of-the-box settings are insufficient, ensuring optimal budget allocation and fast delivery.",
+    "deliverables": [
+      "REQ-001: Distance and radius-based filtering by zip code and user geolocation (5, 10, 25 miles). [EXISTING CONFIGURATION]",
+      "REQ-002: Interactive Google Maps display on search results page with geocoded member pins. [EXISTING CONFIGURATION]",
+      "REQ-003: Enhanced member search cards with photos, verified badges, star ratings, and category labels. [EXISTING CONFIGURATION]",
+      "REQ-004: Member phone number privacy protection (hidden from anonymous public visitors). [EXISTING CONFIGURATION]",
+      "REQ-006: Mobile web responsive performance optimization and homepage hero banner update. [EXISTING CONFIGURATION]",
+      "REQ-007: AI-powered natural language conversational search query parser. [POTENTIAL CUSTOM DEVELOPMENT]",
+      "REQ-008: Custom Google Maps polygon boundary drawing filter. [POTENTIAL CUSTOM DEVELOPMENT]"
+    ],
+    "timeline_weeks": 4.0,
+    "milestones": [
+      {
+        "milestone": "Milestone 1: Architectural Foundation & Configuration",
+        "weeks": "Week 1 - 2",
+        "deliverables": "Admin settings, API key integrations (Google Maps, Stripe/PayPal), initial staging environment.",
+        "percentage_payment": "30%"
+      },
+      {
+        "milestone": "Milestone 2: Feature Implementation & Template Customization",
+        "weeks": "Week 3 - 3",
+        "deliverables": "Search radius filters, interactive map display, responsive mobile layout, custom workflows.",
+        "percentage_payment": "40%"
+      },
+      {
+        "milestone": "Milestone 3: Quality Assurance, UAT & Production Launch",
+        "weeks": "Week 4",
+        "deliverables": "Cross-device browser verification, client user acceptance sign-off, DNS live deployment.",
+        "percentage_payment": "30%"
+      }
+    ],
+    "task_estimates": [
+      {
+        "task_id": "TASK-001",
+        "deliverable": "REQ-001",
+        "task_name": "REQ-001 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in Settings > General Settings > Integrations. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-002",
+        "deliverable": "REQ-001",
+        "task_name": "REQ-001 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-003",
+        "deliverable": "REQ-001",
+        "task_name": "REQ-001 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-004",
+        "deliverable": "REQ-002",
+        "task_name": "REQ-002 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in Settings > General Settings > Integrations. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-005",
+        "deliverable": "REQ-002",
+        "task_name": "REQ-002 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-006",
+        "deliverable": "REQ-002",
+        "task_name": "REQ-002 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-007",
+        "deliverable": "REQ-003",
+        "task_name": "REQ-003 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in My Members > Member Reviews. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-008",
+        "deliverable": "REQ-003",
+        "task_name": "REQ-003 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-009",
+        "deliverable": "REQ-003",
+        "task_name": "REQ-003 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-010",
+        "deliverable": "REQ-004",
+        "task_name": "REQ-004 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in Finance > Membership Plans > Search Visibility. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-011",
+        "deliverable": "REQ-004",
+        "task_name": "REQ-004 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-012",
+        "deliverable": "REQ-004",
+        "task_name": "REQ-004 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-013",
+        "deliverable": "REQ-006",
+        "task_name": "REQ-006 - Platform Administrative Configuration",
+        "low_hours": 2.0,
+        "likely_hours": 3.5,
+        "high_hours": 5.0,
+        "reasoning": "Configure native settings in Admin Panel. Verify API keys.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Client provides valid administrative credentials."
+        ]
+      },
+      {
+        "task_id": "TASK-014",
+        "deliverable": "REQ-006",
+        "task_name": "REQ-006 - Frontend Layout & Template Customization",
+        "low_hours": 3.0,
+        "likely_hours": 5.0,
+        "high_hours": 8.0,
+        "reasoning": "Adjust CSS styling, responsive layout breakpoints, and shortcode placement.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Standard Bootstrap responsive grid applies."
+        ]
+      },
+      {
+        "task_id": "TASK-015",
+        "deliverable": "REQ-006",
+        "task_name": "REQ-006 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-016",
+        "deliverable": "REQ-007",
+        "task_name": "REQ-007 - Architecture Design & API Specification",
+        "low_hours": 4.0,
+        "likely_hours": 6.0,
+        "high_hours": 10.0,
+        "reasoning": "Design custom data models, API interface contract, and error boundary protocols.",
+        "uncertainty_level": "HIGH",
+        "assumptions": [
+          "Platform webhooks and custom widgets support external script injection."
+        ]
+      },
+      {
+        "task_id": "TASK-017",
+        "deliverable": "REQ-007",
+        "task_name": "REQ-007 - Custom Engineering Implementation",
+        "low_hours": 12.0,
+        "likely_hours": 18.0,
+        "high_hours": 28.0,
+        "reasoning": "Develop custom microservice / JavaScript module, database integration, and edge cases.",
+        "uncertainty_level": "HIGH",
+        "assumptions": [
+          "Third party LLM or Maps APIs maintain 99.9% uptime."
+        ]
+      },
+      {
+        "task_id": "TASK-018",
+        "deliverable": "REQ-007",
+        "task_name": "REQ-007 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      },
+      {
+        "task_id": "TASK-019",
+        "deliverable": "REQ-008",
+        "task_name": "REQ-008 - Architecture Design & API Specification",
+        "low_hours": 4.0,
+        "likely_hours": 6.0,
+        "high_hours": 10.0,
+        "reasoning": "Design custom data models, API interface contract, and error boundary protocols.",
+        "uncertainty_level": "HIGH",
+        "assumptions": [
+          "Platform webhooks and custom widgets support external script injection."
+        ]
+      },
+      {
+        "task_id": "TASK-020",
+        "deliverable": "REQ-008",
+        "task_name": "REQ-008 - Custom Engineering Implementation",
+        "low_hours": 12.0,
+        "likely_hours": 18.0,
+        "high_hours": 28.0,
+        "reasoning": "Develop custom microservice / JavaScript module, database integration, and edge cases.",
+        "uncertainty_level": "HIGH",
+        "assumptions": [
+          "Third party LLM or Maps APIs maintain 99.9% uptime."
+        ]
+      },
+      {
+        "task_id": "TASK-021",
+        "deliverable": "REQ-008",
+        "task_name": "REQ-008 - End-to-End QA & Staging Acceptance Testing",
+        "low_hours": 1.5,
+        "likely_hours": 2.5,
+        "high_hours": 4.0,
+        "reasoning": "Verify against defined acceptance criteria across Chrome, Safari, iOS, and Android mobile browsers.",
+        "uncertainty_level": "LOW",
+        "assumptions": [
+          "Staging environment mirrors production database schema."
+        ]
+      }
+    ],
+    "total_low_hours": 67.5,
+    "total_likely_hours": 108.0,
+    "total_high_hours": 169.0,
+    "hourly_rate": 120.0,
+    "currency": "USD",
+    "total_estimated_cost": 12960.0,
+    "pricing_assumptions": "Estimates are calculated at a professional services consulting rate of 120.0 USD/hour. Total likely investment is 12960.0 USD based on 108.0 likely engineering hours (Range: 67.5h low to 169.0h high). Invoices are billed per milestone completion upon written client acceptance.",
+    "client_responsibilities": [
+      "Provide Google Cloud Console billing account and API keys with Geocoding and Maps JavaScript APIs enabled.",
+      "Provide production and sandbox API keys for Stripe and PayPal merchant accounts.",
+      "Review and approve staging deployment milestones within 3 business days of delivery.",
+      "Supply high-resolution brand assets (transparent PNG logo, 1920x600 hero banner)."
+    ],
+    "exclusions": [
+      "Native iOS and Android mobile app store development (strictly responsive web)."
+    ],
+    "risks_and_mitigations": [
+      {
+        "risk": "Third-party API credentials delay",
+        "impact": "Schedule slippage",
+        "mitigation": "Client provides verified API keys during Sprint 0 kick-off."
+      },
+      {
+        "risk": "Scope expansion during staging review",
+        "impact": "Budget and timeline variance",
+        "mitigation": "Formal change control process with incremental scope estimation."
+      }
+    ],
+    "approval_and_next_steps": "To proceed with project kick-off:\n1. Review and approve the attached Scope of Work and Deliverables.\n2. Sign the Master Services Agreement (MSA) and Statement of Work (SOW).\n3. Remit the 30% Milestone 1 initial deposit invoice.\n4. Complete the technical onboarding credential checklist."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000156789-paypal-standard-vs-paypal-commerce-platform",
+  "title": "Configuring PayPal Standard vs PayPal Commerce Platform Gateway",
+  "category": "Finance > Payment Gateways",
+  "sections": [
+    {
+      "heading": "PayPal Integration Options",
+      "content": "Brilliant Directories supports both PayPal Standard and the modern PayPal Commerce Platform.\n- PayPal Commerce Platform provides an embedded on-site checkout experience supporting credit cards and PayPal Smart Buttons without redirecting away from your directory.\n- PayPal Standard redirects the user off-site to PayPal.com to complete payment.\nTo configure:\n1. Go to Finance > Payment Gateways.\n2. Select 'PayPal Commerce Platform' or 'PayPal Standard'.\n3. Enter your PayPal Client ID, Secret, and Merchant ID.\n4. Click 'Save Changes'."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Go to Finance > Payment Gateways",
+      "Choose PayPal Commerce Platform or PayPal Standard",
+      "Enter Client ID and Secret credentials",
+      "Click Save Changes"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "PayPal Integration Options\nBrilliant Directories supports both PayPal Standard and the modern PayPal Commerce Platform.\n- PayPal Commerce Platform provides an embedded on-site checkout experience supporting credit cards and PayPal Smart Buttons without redirecting away from your directory.\n- PayPal Standard redirects the user off-site to PayPal.com to complete payment.\nTo configure:\n1. Go to Finance > Payment Gateways.\n2. Select 'PayPal Commerce Platform' or 'PayPal Standard'.\n3. Enter your PayPal Client ID, Secret, and Merchant ID.\n4. Click 'Save Changes'.",
+  "content_hash": "265782be367bf3d22e2119372d6b76a624d61f3e44fba1c1d572011318b29180"
+}

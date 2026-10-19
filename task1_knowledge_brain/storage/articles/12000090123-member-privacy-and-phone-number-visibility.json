@@ -1,0 +1,25 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090123-member-privacy-and-phone-number-visibility",
+  "title": "Member Privacy Settings and Hiding Phone Numbers",
+  "category": "Finance > Membership Plans > Search Visibility",
+  "sections": [
+    {
+      "heading": "Protecting Member Contact Details",
+      "content": "Directory administrators can restrict visibility of member phone numbers, email addresses, and physical addresses to logged-in members or premium subscribers only.\n1. Go to Finance > Membership Plans.\n2. Click 'Edit' next to the desired plan.\n3. Open the 'Search Visibility' tab.\n4. Locate 'Show Phone Number on Public Search Results'.\n5. Set toggle to 'Only Logged-in Members' or 'Hide Completely'.\n6. Click 'Save Changes'."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Go to Finance > Membership Plans",
+      "Click Edit on the membership plan",
+      "Open Search Visibility tab",
+      "Set 'Show Phone Number' toggle to desired privacy setting",
+      "Click Save Changes"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "Protecting Member Contact Details\nDirectory administrators can restrict visibility of member phone numbers, email addresses, and physical addresses to logged-in members or premium subscribers only.\n1. Go to Finance > Membership Plans.\n2. Click 'Edit' next to the desired plan.\n3. Open the 'Search Visibility' tab.\n4. Locate 'Show Phone Number on Public Search Results'.\n5. Set toggle to 'Only Logged-in Members' or 'Hide Completely'.\n6. Click 'Save Changes'.",
+  "content_hash": "775d469a560dce135315081e34e8fff7f4498b2763c7a46c3006e3a43e021f22"
+}

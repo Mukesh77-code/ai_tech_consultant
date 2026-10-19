@@ -1,0 +1,26 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101234-bulk-import-members-csv",
+  "title": "How to Bulk Import Members Using CSV Spreadsheets",
+  "category": "My Members > Import Members",
+  "sections": [
+    {
+      "heading": "CSV Member Import Tool",
+      "content": "To import existing member databases into Brilliant Directories:\n1. Go to My Members > Import Members.\n2. Download the official CSV Template with pre-formatted column headers (First Name, Last Name, Company, Email, Phone, Address, Category).\n3. Upload your completed CSV file.\n4. Map any custom columns to Brilliant Directories database fields.\n5. Select the target Membership Plan for the imported users.\n6. Click 'Start Import'."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Navigate to My Members > Import Members",
+      "Download CSV template spreadsheet",
+      "Upload filled CSV file",
+      "Review column mappings",
+      "Select default Membership Plan",
+      "Click Start Import"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "CSV Member Import Tool\nTo import existing member databases into Brilliant Directories:\n1. Go to My Members > Import Members.\n2. Download the official CSV Template with pre-formatted column headers (First Name, Last Name, Company, Email, Phone, Address, Category).\n3. Upload your completed CSV file.\n4. Map any custom columns to Brilliant Directories database fields.\n5. Select the target Membership Plan for the imported users.\n6. Click 'Start Import'.",
+  "content_hash": "b832a9e53511d6177c0581752779e69205ab8c9c236bb16057f5aaef85ea0dc2"
+}

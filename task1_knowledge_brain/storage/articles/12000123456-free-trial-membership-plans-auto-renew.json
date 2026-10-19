@@ -1,0 +1,26 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000123456-free-trial-membership-plans-auto-renew",
+  "title": "Configuring Free Trial Membership Plans with Auto-Renewing Billing",
+  "category": "Finance > Membership Plans",
+  "sections": [
+    {
+      "heading": "Free Trial Configuration",
+      "content": "To offer a free trial period on a paid membership plan:\n1. Navigate to Finance > Membership Plans.\n2. Click 'Edit' next to the target plan and select the 'Sign Up Page' or 'Pricing' tab.\n3. Under Initial Payment & Free Trial, enter the Trial Period Duration (e.g. 7 days, 14 days, 30 days).\n4. In the 'Trial Membership Plan' options, toggle 'Require Credit Card Upfront' to Yes to enable seamless auto-renewing recurring billing once the trial expires.\n5. Click 'Save Changes'."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Navigate to Finance > Membership Plans",
+      "Edit the target membership plan",
+      "Open Pricing / Sign Up Page tab",
+      "Set Trial Period Duration",
+      "Toggle Require Credit Card Upfront to Yes for auto-renew",
+      "Click Save Changes"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "Free Trial Configuration\nTo offer a free trial period on a paid membership plan:\n1. Navigate to Finance > Membership Plans.\n2. Click 'Edit' next to the target plan and select the 'Sign Up Page' or 'Pricing' tab.\n3. Under Initial Payment & Free Trial, enter the Trial Period Duration (e.g. 7 days, 14 days, 30 days).\n4. In the 'Trial Membership Plan' options, toggle 'Require Credit Card Upfront' to Yes to enable seamless auto-renewing recurring billing once the trial expires.\n5. Click 'Save Changes'.",
+  "content_hash": "611aa10e4174ca9b45262146586562cf692ac43bb9b686241e2711da85901f22"
+}

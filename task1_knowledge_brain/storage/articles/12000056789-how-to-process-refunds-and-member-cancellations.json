@@ -1,0 +1,50 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056789-how-to-process-refunds-and-member-cancellations",
+  "title": "How to Process Member Refunds and Account Cancellations",
+  "category": "Finance > Transaction History",
+  "sections": [
+    {
+      "heading": "Refunding a Member Transaction",
+      "content": "To issue a full or partial refund to a member:\n1. Navigate to Finance > Transaction History in your admin menu.\n2. Locate the specific invoice or transaction using member name or invoice ID.\n3. Click the 'Action' dropdown on the right side of the transaction row.\n4. Select 'Issue Refund'.\n5. Specify whether you are issuing a Full Refund or Partial Refund (enter the refund dollar amount).\n6. Check the box if you want to notify the member by email.\n7. Click the red 'Confirm Refund' button. The refund is automatically transmitted to Stripe or PayPal."
+    },
+    {
+      "heading": "Handling Member Cancellation",
+      "content": "When a member cancels their subscription, you can immediately cancel access or allow them to remain active until the end of their current paid billing period under My Members > Manage Members > Edit Member Status."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Navigate to Finance > Transaction History",
+      "Locate the transaction by invoice ID or member name",
+      "Click Action dropdown > Issue Refund",
+      "Choose Full Refund or Partial Refund and enter amount",
+      "Click Confirm Refund"
+    ]
+  ],
+  "tables": [],
+  "images": [
+    {
+      "url": "https://support.brilliantdirectories.com/images/transaction-refund-modal.png",
+      "alt_text": "Issue Refund Action Modal",
+      "surrounding_context": "Click Action dropdown next to transaction and select Issue Refund."
+    }
+  ],
+  "enriched_images": [
+    {
+      "image_url": "https://support.brilliantdirectories.com/images/transaction-refund-modal.png",
+      "visual_description": "Transaction History table with Action dropdown open highlighting 'Issue Refund'. Modal popup has Full/Partial radio buttons, Refund Amount input, and Confirm Refund button.",
+      "interface_labels": [
+        "Finance",
+        "Transaction History",
+        "Issue Refund",
+        "Full Refund",
+        "Partial Refund",
+        "Confirm Refund"
+      ],
+      "settings_path": "Finance > Transaction History",
+      "source": "seed_multimodal"
+    }
+  ],
+  "full_text": "Refunding a Member Transaction\nTo issue a full or partial refund to a member:\n1. Navigate to Finance > Transaction History in your admin menu.\n2. Locate the specific invoice or transaction using member name or invoice ID.\n3. Click the 'Action' dropdown on the right side of the transaction row.\n4. Select 'Issue Refund'.\n5. Specify whether you are issuing a Full Refund or Partial Refund (enter the refund dollar amount).\n6. Check the box if you want to notify the member by email.\n7. Click the red 'Confirm Refund' button. The refund is automatically transmitted to Stripe or PayPal.\n\nHandling Member Cancellation\nWhen a member cancels their subscription, you can immediately cancel access or allow them to remain active until the end of their current paid billing period under My Members > Manage Members > Edit Member Status.",
+  "content_hash": "dde8968c990722eae43f2582a9a693bf822f8074920faa3e7f6f6b5386692cfd"
+}

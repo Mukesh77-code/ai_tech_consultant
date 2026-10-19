@@ -1,0 +1,25 @@
+{
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000134567-form-manager-customize-signup-fields",
+  "title": "Customizing Form Fields on Member Registration with Form Manager",
+  "category": "Toolbox > Form Manager",
+  "sections": [
+    {
+      "heading": "Customizing Forms in Form Manager",
+      "content": "The Form Manager allows you to customize and reorder form fields on member signup, contact, and lead forms:\n1. Go to Toolbox > Form Manager.\n2. Locate the 'Listing - Contact Details' or 'Member Signup' form.\n3. Click 'Customize'.\n4. Add new custom fields (text inputs, dropdown menus, radio buttons, file uploads).\n5. Set field validation to Required or Optional.\n6. Click the blue 'Save Changes' button."
+    }
+  ],
+  "procedural_steps": [
+    [
+      "Navigate to Toolbox > Form Manager",
+      "Locate the member registration form",
+      "Click Customize",
+      "Add custom fields or drag to reorder",
+      "Set validation rules and click Save Changes"
+    ]
+  ],
+  "tables": [],
+  "images": [],
+  "enriched_images": [],
+  "full_text": "Customizing Forms in Form Manager\nThe Form Manager allows you to customize and reorder form fields on member signup, contact, and lead forms:\n1. Go to Toolbox > Form Manager.\n2. Locate the 'Listing - Contact Details' or 'Member Signup' form.\n3. Click 'Customize'.\n4. Add new custom fields (text inputs, dropdown menus, radio buttons, file uploads).\n5. Set field validation to Required or Optional.\n6. Click the blue 'Save Changes' button.",
+  "content_hash": "c5624ed7212cb7e9a5fc4b70464dd05e8e2115bca75c208d409d3762cdff88e0"
+}

@@ -1,0 +1,30 @@
+[Meeting Date: October 14, 2026]
+[Attendees: Alex Rivers (Client, CEO at DirectoryHub), Marcus Bennett (Lead Consultant, AI Tech Consulting), Maya Lin (Senior Solutions Architect)]
+
+Alex Rivers [00:00]: Good morning Marcus, Maya. Thanks for jumping on the call. As I mentioned in my email, our directory website search isn't great. We want customers to find service providers faster, and we'd like some filters. Right now, visitors type a name and half the time it returns irrelevant listings or spins forever.
+
+Marcus Bennett [00:32]: Thanks for setting this up, Alex. Let's dig into the details. When you say the search isn't great, what specific behaviors or user journeys are failing today?
+
+Alex Rivers [00:48]: Well, first, we don't have radius or distance-based filtering. If someone is in Austin, Texas looking for a certified electrician within 15 miles, right now they just get a flat alphabetic list of electricians from all over Texas. We desperately need distance and zip code radius search so visitors can specify 5, 10, or 25 miles.
+
+Maya Lin [01:18]: Got it. Radius filtering by zip code and user geolocation. Do you already have a Google Maps API key configured in your admin panel, or do we need to provision that?
+
+Alex Rivers [01:31]: We have a Google Cloud account, but we haven't plugged the API key into the directory platform yet. We also want an interactive map display on the search results page alongside the member cards so users can see pins on the map.
+
+Marcus Bennett [01:49]: Perfect. What about the member cards themselves? Are there specific attributes you want visible?
+
+Alex Rivers [02:00]: Yes. On the search cards, we need member profile photos, verified badges, star rating reviews, and their primary service categories. But here is an important privacy rule: we want member phone numbers hidden from anonymous visitors. Only logged-in registered members should be able to see their direct phone number.
+
+Maya Lin [02:28]: Understood. That's a search visibility toggle per membership tier. What about inquiry lead capture? When a visitor finds an electrician, how do they connect?
+
+Alex Rivers [02:40]: There should be a 'Send Direct Message' contact form on each profile. When a lead is submitted, we want an automated confirmation email sent to the visitor, and the lead notification emailed directly to the member. We'd also like the lead data pushed to our HubSpot CRM via a webhook so our sales team has visibility.
+
+Marcus Bennett [03:09]: Excellent. Are there any other features in this initial phase? What about mobile devices?
+
+Alex Rivers [03:18]: Over 65% of our traffic is on smartphones. The site is currently sluggish on mobile, hero images take too long to load, and the search dropdowns are clunky. We need fast mobile performance, optimized responsive layouts, and an updated homepage banner.
+
+Maya Lin [03:42]: Understood. To clarify our boundaries: are you looking for custom native mobile apps on the App Store in this phase, or purely responsive mobile web optimization?
+
+Alex Rivers [03:54]: Purely responsive mobile web optimization for now. Let's exclude native iOS or Android app stores for this milestone. What about the timeline? We are hoping to launch this within 6 to 8 weeks.
+
+Marcus Bennett [04:12]: 6 to 8 weeks is a realistic window for these capabilities. We will document these requirements, check feasibility against your platform's built-in settings, and return a comprehensive Scope of Work with task hour estimates.
