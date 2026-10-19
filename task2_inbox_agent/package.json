@@ -4,8 +4,8 @@
   "description": "AI Tech Consultant Inbox Agent with 20-consecutive-approval autonomy and feedback learning",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",
-    "start": "tsc && node dist/server.js",
+    "build": "tsc && node copy-assets.js",
+    "start": "npm run build && node dist/server.js",
     "dev": "tsx src/server.ts",
     "test": "tsx tests/run_evaluation.ts"
   },

@@ -22,7 +22,10 @@ const PORT = process.env.INBOX_AGENT_PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public")));
+const publicPath = fs.existsSync(path.join(__dirname, "public"))
+  ? path.join(__dirname, "public")
+  : path.join(__dirname, "../src/public");
+app.use(express.static(publicPath));
 
 // Core Singletons
 const classifier = new EmailClassifier();
@@ -42,7 +45,9 @@ interface EmailState {
   reviewed_at?: string;
 }
 
-const emailDatasetPath = path.join(__dirname, "storage/dataset.json");
+const emailDatasetPath = fs.existsSync(path.join(__dirname, "storage/dataset.json"))
+  ? path.join(__dirname, "storage/dataset.json")
+  : path.join(__dirname, "../src/storage/dataset.json");
 let emailsCache: Record<string, EmailState> = {};
 
 function initEmails() {
